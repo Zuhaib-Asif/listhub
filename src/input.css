@@ -1,0 +1,25 @@
+@import "./customFonts.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* h1 {
+        font-size: 2rem;
+        color: #333;
+      } */
+}
+
+@layer components {
+  /* For whole component  */
+  /* .card {
+  } */
+}
+
+@layer utilities {
+  /* For Utility classes  */
+  /* .font-20px {
+    font-size: 20px;
+  } */
+}

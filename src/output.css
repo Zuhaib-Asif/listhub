@@ -1,6 +1,218 @@
-/*
-! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
-*/
+@import url("https://fonts.googleapis.com/css2?family=Swanky+and+Moo+Moo&display=swap");
+
+/* src/styles/custom.css */
+
+/* Import Google Fonts */
+
+/* Define custom font faces */
+
+@font-face {
+  font-family: "Gilroy-Black";
+
+  src: url("./gilroyFont/Gilroy-Black.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-BlackItalic";
+
+  src: url("./gilroyFont/Gilroy-BlackItalic.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+
+  src: url("./gilroyFont/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-BoldItalic";
+
+  src: url("/gilroy/Gilroy-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+
+  src: url("./gilroyFont/Gilroy-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-ExtraBoldItalic";
+
+  src: url("./gilroyFont/Gilroy-ExtraBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Heavy";
+
+  src: url("./gilroyFont/Gilroy-Heavy.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-HeavyItalic";
+
+  src: url("./gilroyFont/Gilroy-HeavyItalic.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+
+  src: url("./gilroyFont/Gilroy-Light.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-LightItalic";
+
+  src: url("./gilroyFont/Gilroy-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+
+  src: url("./gilroyFont/Gilroy-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-MediumItalic";
+
+  src: url("./gilroyFont/Gilroy-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+
+  src: url("./gilroyFont/Gilroy-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-RegularItalic";
+
+  src: url("./gilroyFont/Gilroy-RegularItalic.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+
+  src: url("./gilroyFont/Gilroy-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBoldItalic";
+
+  src: url("./gilroyFont/Gilroy-SemiBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Thin";
+
+  src: url("./gilroyFont/Gilroy-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-ThinItalic";
+
+  src: url("./gilroyFont/Gilroy-ThinItalic.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-UltraLight";
+
+  src: url("./gilroyFont/Gilroy-UltraLight.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-UltraLightItalic";
+
+  src: url("./gilroyFont/Gilroy-UltraLightItalic.ttf");
+}
+
+/* Define custom classes for Tailwind CSS */
+
+.font-gilroy-black {
+  font-family: "Gilroy-Black", sans-serif;
+}
+
+.font-gilroy-black-italic {
+  font-family: "Gilroy-BlackItalic", sans-serif;
+}
+
+.font-gilroy-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+}
+
+.font-gilroy-bold-italic {
+  font-family: "Gilroy-BoldItalic", sans-serif;
+}
+
+.font-gilroy-extrabold {
+  font-family: "Gilroy-ExtraBold", sans-serif;
+}
+
+.font-gilroy-extrabold-italic {
+  font-family: "Gilroy-ExtraBoldItalic", sans-serif;
+}
+
+.font-gilroy-heavy {
+  font-family: "Gilroy-Heavy", sans-serif;
+}
+
+.font-gilroy-heavy-italic {
+  font-family: "Gilroy-HeavyItalic", sans-serif;
+}
+
+.font-gilroy-light {
+  font-family: "Gilroy-Light", sans-serif;
+}
+
+.font-gilroy-light-italic {
+  font-family: "Gilroy-LightItalic", sans-serif;
+}
+
+.font-gilroy-medium {
+  font-family: "Gilroy-Medium", sans-serif;
+}
+
+.font-gilroy-medium-italic {
+  font-family: "Gilroy-MediumItalic", sans-serif;
+}
+
+.font-gilroy-regular {
+  font-family: "Gilroy-Regular", sans-serif;
+}
+
+.font-gilroy-regular-italic {
+  font-family: "Gilroy-RegularItalic", sans-serif;
+}
+
+.font-gilroy-semibold {
+  font-family: "Gilroy-SemiBold", sans-serif;
+}
+
+.font-gilroy-semibold-italic {
+  font-family: "Gilroy-SemiBoldItalic", sans-serif;
+}
+
+.font-gilroy-thin {
+  font-family: "Gilroy-Thin", sans-serif;
+}
+
+.font-gilroy-thin-italic {
+  font-family: "Gilroy-ThinItalic", sans-serif;
+}
+
+.font-gilroy-ultralight {
+  font-family: "Gilroy-UltraLight", sans-serif;
+}
+
+.font-gilroy-ultralight-italic {
+  font-family: "Gilroy-UltraLightItalic", sans-serif;
+}
+
+.font-swanky {
+  font-family: "Swanky and Moo Moo", cursive;
+}
+
+/* ! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -446,7 +658,12 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+/* h1 {
+        font-size: 2rem;
+        color: #333;
+      } */
+
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -500,7 +717,7 @@ video {
   --tw-contain-style:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -554,11 +771,22 @@ video {
   --tw-contain-style:  ;
 }
 
-.flex {
+/* For whole component  */
+
+/* .card {
+  } */
+
+.flex{
   display: flex;
 }
 
-.text-red-900 {
+.text-green-700{
   --tw-text-opacity: 1;
-  color: rgb(127 29 29 / var(--tw-text-opacity));
+  color: rgb(21 128 61 / var(--tw-text-opacity));
 }
+
+/* For Utility classes  */
+
+/* .font-20px {
+    font-size: 20px;
+  } */
