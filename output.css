@@ -554,8 +554,8 @@ video {
   --tw-contain-style:  ;
 }
 
-.font-bold {
-  font-weight: 700;
+.flex {
+  display: flex;
 }
 
 .text-red-900 {
