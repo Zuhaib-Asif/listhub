@@ -212,6 +212,10 @@
   font-family: "Swanky and Moo Moo", cursive;
 }
 
+:root {
+  --color-purple-primary: #2e3553;
+}
+
 /* ! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com */
 
 /*
@@ -780,54 +784,48 @@ video {
   margin-left: 1.25rem;
 }
 
-.ml-24{
-  margin-left: 6rem;
-}
-
-.ml-3{
-  margin-left: 0.75rem;
-}
-
 .mt-2{
   margin-top: 0.5rem;
-}
-
-.mt-6{
-  margin-top: 1.5rem;
 }
 
 .mt-3{
   margin-top: 0.75rem;
 }
 
+.mt-5{
+  margin-top: 1.25rem;
+}
+
 .flex{
   display: flex;
+}
+
+.flex-col{
+  flex-direction: column;
 }
 
 .items-center{
   align-items: center;
 }
 
-.gap-1{
-  gap: 0.25rem;
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
 }
 
 .gap-2{
   gap: 0.5rem;
 }
 
-.bg-red-100{
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
-}
-
 .text-left{
   text-align: left;
 }
 
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
+.align-middle{
+  vertical-align: middle;
 }
 
 .text-sm{
@@ -835,8 +833,9 @@ video {
   line-height: 1.25rem;
 }
 
-.font-bold{
-  font-weight: 700;
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-normal{
@@ -847,13 +846,20 @@ video {
   line-height: .75rem;
 }
 
-.text-green-700{
-  --tw-text-opacity: 1;
-  color: rgb(21 128 61 / var(--tw-text-opacity));
-}
-
 /* For Utility classes  */
 
 /* .font-20px {
     font-size: 20px;
   } */
+
+.color-primary {
+  color: var(--color-purple-primary);
+}
+
+.wrapper {
+  padding: 0 19px;
+}
+
+.m-top10px {
+  margin-top: 10px;
+}
