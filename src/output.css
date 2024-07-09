@@ -907,6 +907,10 @@ video {
   margin-bottom: 4rem;
 }
 
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
 .block{
   display: block;
 }
@@ -1005,6 +1009,10 @@ video {
 
 .border{
   border-width: 1px;
+}
+
+.border-none{
+  border-style: none;
 }
 
 .border-gray-500{
@@ -1130,6 +1138,10 @@ video {
 
 .background-color-primary {
   background-color: var(--background-color-purple-primary);
+}
+
+.background-color-primary-green {
+  background-color: var(--background-color-green-primary);
 }
 
 .wrapper {
