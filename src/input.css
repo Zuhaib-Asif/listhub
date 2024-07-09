@@ -19,6 +19,10 @@
   .body-background {
     background: linear-gradient(180deg, #ffffff 0%, #eef6fe 100%);
   }
+
+  .text-Color-white {
+    color: #ffffff;
+  }
 }
 
 @layer components {
@@ -85,6 +89,9 @@
   .background-color-primary-green {
     background-color: var(--background-color-green-primary);
   }
+  .border-color-primary-green {
+    border: 1px solid #48bfaa;
+  }
   .wrapper {
     padding: 0 19px;
   }
@@ -93,6 +100,15 @@
   }
   .m-top10px {
     margin-top: 10px;
+  }
+  .m-top22px {
+    margin-top: 22px;
+  }
+  .m-top15px {
+    margin-top: 15px;
+  }
+  .m-Bottom10px {
+    margin-bottom: 10px;
   }
   .width-26px {
     width: 26px;
@@ -120,5 +136,8 @@
   }
   .active-footer-tab p {
     color: #48bfaa;
+  }
+  .backGround-lightGreen {
+    background-color: #e7ffe8;
   }
 }
