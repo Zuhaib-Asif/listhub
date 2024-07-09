@@ -2,7 +2,9 @@
 
 :root {
   --color-purple-primary: #2e3553;
+  --color-green-primary: #48bfaa;
   --background-color-purple-primary: #2e3553;
+  --background-color-green-primary: #48bfaa;
 }
 
 @tailwind base;
@@ -14,10 +16,16 @@
         font-size: 2rem;
         color: #333;
       } */
+  .body-background {
+    background: linear-gradient(180deg, #ffffff 0%, #eef6fe 100%);
+  }
 }
 
 @layer components {
   /* For whole component  */
+  .home-top-card-container::-webkit-scrollbar {
+    display: none;
+  }
   .home-top-card {
     min-width: 91px;
     position: relative;
@@ -68,11 +76,20 @@
   .color-primary {
     color: var(--color-purple-primary);
   }
+  .color-primary-green {
+    color: var(--color-green-primary);
+  }
   .background-color-primary {
     background-color: var(--background-color-purple-primary);
   }
+  .background-color-primary-green {
+    background-color: var(--background-color-green-primary);
+  }
   .wrapper {
     padding: 0 19px;
+  }
+  .m-top7px {
+    margin-top: 7px;
   }
   .m-top10px {
     margin-top: 10px;
@@ -83,13 +100,22 @@
   .height-26px {
     height: 26px;
   }
+  .font-size-8px {
+    font-size: 8px;
+  }
   .font-size-10px {
     font-size: 10px;
+  }
+  .font-size-13px {
+    font-size: 13px;
   }
   .gap-10px {
     gap: 10px;
   }
   .CardBgColor {
     background-color: #f6f8fb;
+  }
+  .active-footer-tab p {
+    color: #48bfaa;
   }
 }
