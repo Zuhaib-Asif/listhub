@@ -115,6 +115,9 @@
   .CardBgColor {
     background-color: #f6f8fb;
   }
+  .radius-10px {
+    border-radius: 10px;
+  }
   .active-footer-tab p {
     color: #48bfaa;
   }
