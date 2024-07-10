@@ -674,6 +674,10 @@ video {
   background: linear-gradient(180deg, #ffffff 0%, #eef6fe 100%);
 }
 
+.body-background-brown {
+  background-color: #d65555;
+}
+
 .text-Color-white {
   color: #ffffff;
 }

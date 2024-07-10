@@ -20,6 +20,10 @@
     background: linear-gradient(180deg, #ffffff 0%, #eef6fe 100%);
   }
 
+  .body-background-brown {
+    background-color: #d65555;
+  }
+
   .text-Color-white {
     color: #ffffff;
   }
@@ -88,6 +92,9 @@
   }
   .background-color-primary-green {
     background-color: var(--background-color-green-primary);
+  }
+  .background-color-primary-brown {
+    background-color: #d65555;
   }
   .border-color-primary-green {
     border: 1px solid #48bfaa;
