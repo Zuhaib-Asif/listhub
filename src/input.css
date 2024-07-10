@@ -118,6 +118,9 @@
   .radius-10px {
     border-radius: 10px;
   }
+  .input-focus {
+    outline-color: #7248bf;
+  }
   .active-footer-tab p {
     color: #48bfaa;
   }
