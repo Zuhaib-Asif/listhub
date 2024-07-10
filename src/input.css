@@ -34,7 +34,8 @@
 
 @layer components {
   /* For whole component  */
-  .home-top-card-container::-webkit-scrollbar {
+  .home-top-card-container::-webkit-scrollbar,
+  .menu-bar-scroller::-webkit-scrollbar {
     display: none;
   }
   .home-top-card {
