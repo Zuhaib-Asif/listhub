@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../output.css" />
+  </head>
+  <body class="body-background">
+    <div
+      class="fixed overflow-y-scroll flex justify-center top-0 left-0 w-full h-full z-20"
+      style="background-color: #0000004d"
+    >
+      <div class="absolute top-28 w-11/12">
+        <div class="flex justify-end mb-2">
+          <svg
+            width="26"
+            height="26"
+            viewBox="0 0 26 26"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="13" cy="13" r="13" fill="white" />
+            <path
+              d="M16.25 9.75003L9.75 16.25M9.74997 9.75L16.2499 16.25"
+              stroke="#1C274C"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        <div class="bg-white py-5 px-3" style="border-radius: 20px">
+          <p class="text-center font-gilroy-extrabold font-normal text-xl">
+            Invitaion
+          </p>
+          <img src="./assets/image-room-invitation.svg" alt="" />
+          <p
+            class="font-gilroy-light text-center font-normal font-size-13px color-primary my-4"
+          >
+            <span class="font-gilroy-bold">Mark Scoy</span> has invited you to
+            the <span class="font-gilroy-bold">Grocery List</span> in the
+            Shopping List Room. You can accept this invitation to view the list
+            together, or decline if you do not wish to collaborate.
+          </p>
+          <div>
+            <div class="flex justify-between items-center">
+              <p
+                class="font-gilroy-light color-primary font-size-13px font-normal"
+              >
+                Members
+              </p>
+              <p
+                class="font-gilroy-light color-primary font-size-13px font-normal text-right"
+              >
+                Role
+              </p>
+            </div>
+            <div
+              class="flex items-center justify-between"
+              style="margin-block: 10px"
+            >
+              <p
+                class="flex items-center gap-2 font-gilroy-extrabold font-normal text-sm"
+              >
+                <img src="../globalAssets/dp.svg" alt="" /> First Last
+              </p>
+              <p
+                class="background-color-primary-green text-center font-size-10px font-gilroy-light font-normal text-white rounded-md inline-block px-2"
+              >
+                Owner
+              </p>
+            </div>
+            <div
+              class="flex items-center justify-between"
+              style="margin-block: 10px"
+            >
+              <p
+                class="flex items-center gap-2 font-gilroy-extrabold font-normal text-sm"
+              >
+                <img src="../globalAssets/dp.svg" alt="" /> First Last
+              </p>
+              <p
+                class="text-center font-size-10px font-gilroy-light font-normal rounded-md inline-block px-2"
+                style="background-color: #e3ecaf"
+              >
+                Admin
+              </p>
+            </div>
+            <div
+              class="flex items-center justify-between"
+              style="margin-block: 10px"
+            >
+              <p
+                class="flex items-center gap-2 font-gilroy-extrabold font-normal text-sm"
+              >
+                <img src="../globalAssets/dp.svg" alt="" /> First Last
+              </p>
+              <p
+                class="text-center font-size-10px font-gilroy-light font-normal rounded-md inline-block px-2"
+                style="background-color: #e3ecaf"
+              >
+                Member
+              </p>
+            </div>
+
+            <p
+              class="text-center font-gilroy-light color-primary font-size-13px"
+            >
+              and 2+ more
+            </p>
+          </div>
+          <div class="px-3 mt-3 flex justify-between items-center">
+            <button
+              class="color-primary font-gilroy-bold font-normal py-3 px-10 rounded-full"
+              style="font-size: 15px; border: 1px solid #48bfaa"
+            >
+              Decline
+            </button>
+            <button
+              class="text-white background-color-primary-green font-gilroy-bold font-normal py-3 px-10 rounded-full"
+              style="font-size: 15px; border: 1px solid #48bfaa"
+            >
+              Accept
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="wrapper sticky top-0 left-0 bg-white z-10"
+      style="padding-top: 10px; padding-bottom: 10px"
+    >
+      <header class="flex justify-between items-center">
+        <p class="text color-primary text-lg font-normal font-gilroy-extrabold">
+          Rooms
+        </p>
+        <div class="flex items-center gap-4">
+          <img src="../globalAssets/search.svg" alt="" />
+          <img src="../globalAssets/notification.svg" alt="" />
+        </div>
+      </header>
+    </div>
+    <div class="wrapper relative">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-1">
+          <button
+            class="background-color-primary-green text-white font-gilroy-regular font-normal text-xs py-2 px-5 radius-10px"
+          >
+            Open
+          </button>
+          <button
+            class="bg-white color-primary-green font-gilroy-regular font-normal text-xs py-2 px-5 radius-10px"
+            style="border: 1px solid #48bfaa"
+          >
+            Completed
+          </button>
+        </div>
+        <svg
+          width="16"
+          height="11"
+          viewBox="0 0 16 11"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15 1.5C15.2761 1.5 15.5 1.27614 15.5 1C15.5 0.723858 15.2761 0.5 15 0.5V1.5ZM1.00005 0.5C0.723905 0.5 0.500047 0.723858 0.500047 1C0.500047 1.27614 0.723905 1.5 1.00005 1.5V0.5ZM15 4.61104C15.2761 4.61104 15.5 4.38718 15.5 4.11104C15.5 3.8349 15.2761 3.61104 15 3.61104V4.61104ZM1.00005 3.61104C0.723905 3.61104 0.500047 3.8349 0.500047 4.11104C0.500047 4.38718 0.723905 4.61104 1.00005 4.61104V3.61104ZM6.44441 7.72223C6.72055 7.72223 6.94441 7.49837 6.94441 7.22223C6.94441 6.94608 6.72055 6.72223 6.44441 6.72223V7.72223ZM1 6.72223C0.723858 6.72223 0.5 6.94608 0.5 7.22223C0.5 7.49837 0.723858 7.72223 1 7.72223V6.72223ZM6.44441 10.8333C6.72055 10.8333 6.94441 10.6094 6.94441 10.3333C6.94441 10.0571 6.72055 9.83327 6.44441 9.83327V10.8333ZM1 9.83327C0.723858 9.83327 0.5 10.0571 0.5 10.3333C0.5 10.6094 0.723858 10.8333 1 10.8333V9.83327ZM9.88099 7.62032C9.67132 7.44061 9.35567 7.46489 9.17596 7.67456C8.99625 7.88422 9.02053 8.19987 9.2302 8.37958L9.88099 7.62032ZM12.2778 10.3333L11.9524 10.7129C12.1396 10.8734 12.4159 10.8734 12.6032 10.7129L12.2778 10.3333ZM15.3254 8.37958C15.5351 8.19987 15.5593 7.88422 15.3796 7.67456C15.1999 7.46489 14.8843 7.44061 14.6746 7.62032L15.3254 8.37958ZM15 0.5H1.00005V1.5H15V0.5ZM15 3.61104H1.00005V4.61104H15V3.61104ZM6.44441 6.72223H1V7.72223H6.44441V6.72223ZM6.44441 9.83327H1V10.8333H6.44441V9.83327ZM9.2302 8.37958L11.9524 10.7129L12.6032 9.95364L9.88099 7.62032L9.2302 8.37958ZM12.6032 10.7129L15.3254 8.37958L14.6746 7.62032L11.9524 9.95364L12.6032 10.7129Z"
+            fill="#2E3553"
+          />
+        </svg>
+      </div>
+      <div class="flex flex-col gap-10px m-top10px">
+        <div
+          class="bg-white rounded-2xl w-full pl-4 pt-3 flex items-center justify-between"
+          style="
+            padding-bottom: 10px;
+            padding-right: 22px;
+            box-shadow: 0px 0px 15px 0px #0000000d;
+          "
+        >
+          <div class="w-3/4">
+            <p class="color-primary font-gilroy-extrabold font-normal text-sm">
+              Home Grocery
+            </p>
+            <p
+              class="font-gilroy-regular font-normal font-size-13px color-primary my-3"
+            >
+              <span class="font-gilroy-extrabold">12</span> open items
+            </p>
+            <div class="flex items-center gap-1">
+              <img src="../globalAssets/dp.svg" alt="" />
+              <img src="../globalAssets/dp.svg" alt="" />
+              <p
+                class="font-gilroy-light flex justify-center items-center background-color-primary-green text-white w-5 h-5 rounded-full"
+                style="font-size: 8px"
+              >
+                TM
+              </p>
+              <p
+                class="font-gilroy-light flex justify-center items-center background-color-primary-green text-white w-5 h-5 rounded-full"
+                style="font-size: 8px"
+              >
+                TM
+              </p>
+              <p
+                class="font-gilroy-light flex justify-center items-center background-color-primary-green text-white w-5 h-5 rounded-full"
+                style="font-size: 8px"
+              >
+                TM
+              </p>
+              <p
+                class="font-gilroy-light flex justify-center items-center bg-white w-5 h-5 rounded-full"
+                style="font-size: 8px; border: 1px dashed #48bfaa"
+              >
+                +3
+              </p>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/icon-room-activity-planner.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-2xl w-full pl-4 pt-3 flex items-center justify-between"
+          style="
+            padding-bottom: 10px;
+            padding-right: 22px;
+            box-shadow: 0px 0px 15px 0px #0000000d;
+          "
+        >
+          <div class="w-3/4">
+            <p class="color-primary font-gilroy-extrabold font-normal text-sm">
+              Vacation Trip 2021 & Student Loans
+            </p>
+            <p
+              class="font-gilroy-regular font-normal font-size-13px color-primary my-3"
+            >
+              <span class="font-gilroy-extrabold">12</span> open items
+            </p>
+            <div class="flex items-center gap-1">
+              <img src="../globalAssets/dp.svg" alt="" />
+              <img src="../globalAssets/dp.svg" alt="" />
+              <p
+                class="font-gilroy-light flex justify-center items-center background-color-primary-green text-white w-5 h-5 rounded-full"
+                style="font-size: 8px"
+              >
+                TM
+              </p>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/icon-room-task-manager.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-2xl w-full pl-4 pt-3 flex items-center justify-between"
+          style="
+            padding-bottom: 10px;
+            padding-right: 22px;
+            box-shadow: 0px 0px 15px 0px #0000000d;
+          "
+        >
+          <div class="w-3/4">
+            <p class="color-primary font-gilroy-extrabold font-normal text-sm">
+              Mike owing me money for a long time
+            </p>
+            <p
+              class="font-gilroy-regular font-normal font-size-13px color-primary my-3"
+            >
+              <span class="font-gilroy-extrabold">$200</span> of open debts
+            </p>
+            <div class="flex items-center gap-4">
+              <p class="flex items-center gap-1">
+                <img src="../globalAssets/dp.svg" alt="" /> Lender
+              </p>
+              <p class="flex items-center gap-1">
+                <img src="../globalAssets/dp.svg" alt="" /> Borrower
+              </p>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="./assets/icon-room-dept-ledger.svg" alt="" />
+            <span
+              class="absolute top-0 right-0 text-white rounded font-gilroy-light font-normal p-1"
+              style="
+                font-size: 8px;
+                background-color: #d65555;
+                padding: 1.5px 5.34px;
+              "
+              >5</span
+            >
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-2xl w-full pl-4 pt-3 flex items-center justify-between"
+          style="
+            padding-bottom: 10px;
+            padding-right: 22px;
+            box-shadow: 0px 0px 15px 0px #0000000d;
+          "
+        >
+          <div class="w-3/4">
+            <p class="color-primary font-gilroy-extrabold font-normal text-sm">
+              Movies and Shows to watch this simmer
+            </p>
+            <p
+              class="font-gilroy-regular font-normal font-size-13px color-primary my-3"
+            >
+              <span class="font-gilroy-extrabold">1</span> open activity
+            </p>
+            <div class="flex items-center gap-1">
+              <img src="../globalAssets/dp.svg" alt="" />
+              <img src="../globalAssets/dp.svg" alt="" />
+              <p
+                class="font-gilroy-light flex justify-center items-center background-color-primary-green text-white w-5 h-5 rounded-full"
+                style="font-size: 8px"
+              >
+                TM
+              </p>
+              <p
+                class="font-gilroy-light flex justify-center items-center background-color-primary-green text-white w-5 h-5 rounded-full"
+                style="font-size: 8px"
+              >
+                TM
+              </p>
+              <p
+                class="font-gilroy-light flex justify-center items-center background-color-primary-green text-white w-5 h-5 rounded-full"
+                style="font-size: 8px"
+              >
+                TM
+              </p>
+              <p
+                class="font-gilroy-light flex justify-center items-center bg-white w-5 h-5 rounded-full"
+                style="font-size: 8px; border: 1px dashed #48bfaa"
+              >
+                +3
+              </p>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="./assets/icon-room-activity-planner.svg" alt="" />
+            <span
+              class="absolute top-0 right-0 text-white rounded font-gilroy-light font-normal p-1"
+              style="
+                font-size: 8px;
+                background-color: #d65555;
+                padding: 1.5px 5.34px;
+              "
+              >12</span
+            >
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-2xl w-full pl-4 pt-3 flex items-center justify-between"
+          style="
+            padding-bottom: 10px;
+            padding-right: 22px;
+            box-shadow: 0px 0px 15px 0px #0000000d;
+          "
+        >
+          <div class="w-3/4">
+            <p class="color-primary font-gilroy-extrabold font-normal text-sm">
+              Home Refrigerator
+            </p>
+            <p
+              class="font-gilroy-regular font-normal font-size-13px color-primary my-3"
+            >
+              <span class="font-gilroy-extrabold">1</span> open activity
+            </p>
+            <div class="flex items-center gap-1">
+              <img src="../globalAssets/dp.svg" alt="" />
+              <img src="../globalAssets/dp.svg" alt="" />
+              <p
+                class="font-gilroy-light flex justify-center items-center background-color-primary-green text-white w-5 h-5 rounded-full"
+                style="font-size: 8px"
+              >
+                TM
+              </p>
+              <p
+                class="font-gilroy-light flex justify-center items-center background-color-primary-green text-white w-5 h-5 rounded-full"
+                style="font-size: 8px"
+              >
+                TM
+              </p>
+              <p
+                class="font-gilroy-light flex justify-center items-center background-color-primary-green text-white w-5 h-5 rounded-full"
+                style="font-size: 8px"
+              >
+                TM
+              </p>
+              <p
+                class="font-gilroy-light flex justify-center items-center bg-white w-5 h-5 rounded-full"
+                style="font-size: 8px; border: 1px dashed #48bfaa"
+              >
+                +3
+              </p>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="./assets/icon-room-dept-ledger.svg" alt="" />
+            <span
+              class="absolute top-0 right-0 text-white rounded font-gilroy-light font-normal p-1"
+              style="
+                font-size: 8px;
+                background-color: #d65555;
+                padding: 1.5px 5.34px;
+              "
+              >5</span
+            >
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-2xl w-full pl-4 pt-3 flex items-center justify-between opacity-50"
+          style="
+            padding-bottom: 10px;
+            padding-right: 22px;
+            box-shadow: 0px 0px 15px 0px #0000000d;
+          "
+        >
+          <div class="w-3/4">
+            <p class="color-primary font-gilroy-extrabold font-normal text-sm">
+              Movies and Shows to watch this simmer
+            </p>
+            <p
+              class="font-gilroy-regular font-normal font-size-13px color-primary my-3"
+            >
+              <span class="font-gilroy-extrabold">1</span> open activity
+            </p>
+            <div class="flex items-center gap-1">
+              <img src="../globalAssets/dp.svg" alt="" />
+              <img src="../globalAssets/dp.svg" alt="" />
+              <p
+                class="font-gilroy-light flex justify-center items-center background-color-primary-green text-white w-5 h-5 rounded-full"
+                style="font-size: 8px"
+              >
+                TM
+              </p>
+              <p
+                class="font-gilroy-light flex justify-center items-center background-color-primary-green text-white w-5 h-5 rounded-full"
+                style="font-size: 8px"
+              >
+                TM
+              </p>
+              <p
+                class="font-gilroy-light flex justify-center items-center background-color-primary-green text-white w-5 h-5 rounded-full"
+                style="font-size: 8px"
+              >
+                TM
+              </p>
+              <p
+                class="font-gilroy-light flex justify-center items-center bg-white w-5 h-5 rounded-full"
+                style="font-size: 8px; border: 1px dashed #48bfaa"
+              >
+                +3
+              </p>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="./assets/icon-room-dept-ledger.svg" alt="" />
+            <span
+              class="absolute top-0 right-0 text-white rounded font-gilroy-light font-normal p-1"
+              style="
+                font-size: 8px;
+                background-color: #d65555;
+                padding: 1.5px 5.34px;
+              "
+              >5</span
+            >
+          </div>
+        </div>
+      </div>
+      <img
+        class="fixed bottom-20 left-1/2"
+        style="z-index: 1; transform: translateX(-50%)"
+        src="./assets/Add Buttton.svg"
+        alt=""
+      />
+    </div>
+    <!-- Footer  -->
+    <div class="mb-28"></div>
+    <div
+      class="w-full flex justify-center fixed bottom-0 left-0 bg-white footer-menu"
+      style="width: 100%; padding: 9px 10px; gap: 60px"
+    >
+      <div class="flex flex-col items-center active-footer-tab">
+        <img src="../globalAssets/icon-nav-bottom-home.svg" alt="" />
+        <p
+          class="font-gilroy-bold font-normal text-center color-primary leading-6"
+          style="font-size: 13px"
+        >
+          Home
+        </p>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="../globalAssets/icon-nav-button-rooms.svg" alt="" />
+        <p
+          class="font-gilroy-bold font-normal text-center color-primary leading-6"
+          style="font-size: 13px"
+        >
+          Rooms
+        </p>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="../globalAssets/icon-nav-button-menu.svg" alt="" />
+        <p
+          class="font-gilroy-bold font-normal text-center color-primary leading-6"
+          style="font-size: 13px"
+        >
+          Menu
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -23,6 +23,9 @@
   .body-background-brown {
     background-color: #d65555;
   }
+  .body-background-light-brown {
+    background-color: #ffe7e7;
+  }
 
   .text-Color-white {
     color: #ffffff;
@@ -93,15 +96,12 @@
   .background-color-primary-green {
     background-color: var(--background-color-green-primary);
   }
-  .background-color-primary-brown {
-    background-color: #d65555;
-  }
 
-  .background-color-primary-blue {
-    background-color: #47c3c9;
-  }
   .border-color-primary-green {
     border: 1px solid #48bfaa;
+  }
+  .border-color-primary-darkGreen {
+    border: 1px solid #47c3c9;
   }
   .wrapper {
     padding: 0 19px;
