@@ -113,9 +113,19 @@
   .border-color-dark-Yellow {
     border: 1px solid #aebf48;
   }
+  .border-color-light-brown {
+    border: 1px solid #aebf48;
+  }
 
   .border-color-primary-darkGreen {
     border: 1px solid #47c3c9;
+  }
+  .border-color-primary-purpule {
+    border: 1px solid #c379b8;
+  }
+
+  .border-color-primary-red {
+    border: 1px solid #c3333f;
   }
   .wrapper {
     padding: 0 19px;
