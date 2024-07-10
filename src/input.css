@@ -100,6 +100,19 @@
   .border-color-primary-green {
     border: 1px solid #48bfaa;
   }
+  .border-color-primary-dark-green {
+    border: 1px solid #47c3c9;
+  }
+  .border-color-primary-Purple {
+    border: 1px solid #9b63b8;
+  }
+  .border-color-primary-Yellow {
+    border: 1px solid #d8f892;
+  }
+  .border-color-dark-Yellow {
+    border: 1px solid #aebf48;
+  }
+
   .border-color-primary-darkGreen {
     border: 1px solid #47c3c9;
   }
