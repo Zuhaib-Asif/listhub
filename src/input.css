@@ -165,4 +165,13 @@
   .backGround-lightGreen {
     background-color: #e7ffe8;
   }
+  .add-travel-checkbox-container input:checked ~ label {
+    background-color: #e9f7ff;
+  }
+  .add-travel-checkbox-container input:checked ~ label div {
+    background-color: #bde7fe;
+  }
+  .add-travel-checkbox-container input:checked ~ label p {
+    font-family: "Gilroy-Bold";
+  }
 }
