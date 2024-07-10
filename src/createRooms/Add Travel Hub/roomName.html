@@ -1,94 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../../output.css" />
-  </head>
-  <body >
-    <div class="flex items-center gap-2 mt-3">
-      <img
-        class="ml-5 "
-        src="../../globalAssets/icon-navbutton-back.svg"
-        alt=""
-      />
-      <p
-        class="color-primary text-left font-gilroy-extrabold text-sm font-normal leading-3"
-      >
-        Room Name
-      </p>
-    </div>
-    <div class="flex justify-center flex-col ml-5 mr-5 items-center mt-5">
-      <p
-        class="color-primary text-left font-gilroy-extrabold text-xl font-normal leading-3"
-      >
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../../output.css" />
+</head>
+
+<body>
+  <div class="flex items-center gap-2 mt-3">
+    <img class="ml-5 " src="../../globalAssets/icon-navbutton-back.svg" alt="" />
+    <p class="color-primary text-left font-gilroy-extrabold text-sm font-normal leading-3">
+      Room Name
+    </p>
+  </div>
+  <div class="flex justify-center flex-col ml-5 mr-5 items-center mt-5">
+    <p class="color-primary text-left font-gilroy-extrabold text-xl font-normal leading-3">
       Task Manager
-      </p>
-      <p
-        class="font-size-13px  leading-4 text-center flex align-middle justify-center mt-5 font-gilroy-light color-primary"
-      >
+    </p>
+    <p
+      class="font-size-13px  leading-4 text-center flex align-middle justify-center mt-5 font-gilroy-light color-primary">
       Please give your room a name. This name will show as your room main page. Only admin can change it.
-      </p>
-      <img src="./assests/task-manager-image-create-room.svg" alt="">
-      <p
-        class="color-primary font-size-13px text-left font-gilroy-extrabold text-xs font-normal leading-3"
-      >
-        Upload a picture for this room
-      </p>
-      <img class="m-top10px" src="./assests/Group 18325.svg" alt="" />
+    </p>
+    <img src="./assests/task-manager-image-create-room.svg" alt="">
+    <p class="color-primary font-size-13px text-left font-gilroy-extrabold text-xs font-normal leading-3">
+      Upload a picture for this room
+    </p>
+    <img class="m-top10px" src="./assests/Group 18325.svg" alt="" />
+  </div>
+  <div class="ml-5 mr-5 mt-5">
+    <div class="mb-4">
+      <label class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary"
+        style="letter-spacing: 0.20000000298023224px" for="roomName">Room Name</label><br />
+      <input
+        class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary"
+        style="border: 1px solid #e4edfc; background-color: #f6f8fb" id="roomName" type="text" />
     </div>
-    <div class="ml-5 mr-5 mt-5">
-      <div class="mb-4">
-        <label
-          class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary"
-          style="letter-spacing: 0.20000000298023224px"
-          for="roomName"
-          >Room Name</label
-        ><br />
+    <div class="mb-4">
+      <label class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary"
+        style="letter-spacing: 0.20000000298023224px" for="roomName">Location</label><br />
+      <input
+        class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary"
+        style="border: 1px solid #e4edfc; background-color: #f6f8fb" id="roomName" type="text" />
+    </div>
+    <div class="flex justify-between mb-4">
+      <div>
+        <label class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary"
+          style="letter-spacing: 0.20000000298023224px" for="start-date-add-travel">Start Date</label> <br>
         <input
           class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary"
-          style="border: 1px solid #e4edfc; background-color: #f6f8fb"
-          id="roomName"
-          type="email"
-        />
+          style="border: 1px solid #e4edfc; background-color: #f6f8fb" id="start-date-add-travel" type="date">
       </div>
-      <div class="flex justify-center mt-5">
-        <button class="px-3 py-2 w-28 h-11 bg-[#47C3C9] font-gilroy-bold text-base leading-6 font-normal text-white rounded-3xl  ">Next</button>
+      <div>
+        <label class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary"
+          style="letter-spacing: 0.20000000298023224px" for="end-date-add-travel">End Date</label> <br>
+        <input
+          class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary"
+          style="border: 1px solid #e4edfc; background-color: #f6f8fb" id="end-date-add-travel" type="date">
+      </div>
     </div>
-        <!-- Footer  -->
-        <div class="mb-28"></div>
-        <div
-          class="w-full flex justify-center fixed bottom-0 left-0 bg-white footer-menu"
-          style="width: 100%; padding: 9px 10px; gap: 60px"
-        >
-          <div class="flex flex-col items-center active-footer-tab">
-            <img src="../../globalAssets/icon-nav-bottom-home.svg" alt="">
-            <p
-              class="font-gilroy-bold font-normal text-center color-primary leading-6"
-              style="font-size: 13px"
-            >
-              Home
-            </p>
+    <div class="mb-4">
+      <label class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary"
+        style="letter-spacing: 0.20000000298023224px" for="">Start Date</label> <br>
+        <select  class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary"
+        style="border: 1px solid #e4edfc; background-color: #f6f8fb"  name="" id="">
+          <option value="">USD - US Dollar</option>
+          <option value="">AE - UAE Dirham</option>
+          <option value="">GBP - UK Pound</option>
+        </select>
+    </div>
+    <div class="mb-4">
+      <label class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary"
+        style="letter-spacing: 0.20000000298023224px" for="">Select blocks you want to activate for this room</label> <br>
+        <div class="flex flex-wrap gap-4">
+          <div class="add-travel-checkbox-container"> 
+            <input class="hidden" id="add-travel-baggage" type="checkbox" name="" id="">
+            <label class="flex flex-col items-center rounded-md" style="padding: 10px 14px;" for="add-travel-baggage">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center bg-[#E9F7FF]" > <img src="./assests/baggage.svg" alt=""></div>
+            <p class="color-primary font-gilroy-light font-normal font-size-10px">Baggage</p>
+          </label>
+        </div>
+          <div class="add-travel-checkbox-container"> 
+            <input class="hidden" id="add-travel-doc" type="checkbox" name="" id="">
+            <label class="flex flex-col items-center rounded-md" style="padding: 10px 14px;" for="add-travel-doc">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center bg-[#E9F7FF]" > <img src="./assests/document.svg" alt=""></div>
+            <p class="color-primary font-gilroy-light font-normal font-size-10px">Documents</p>
+          </label>
+        </div>
+          <div class="add-travel-checkbox-container"> 
+            <input class="hidden" id="add-travel-note" type="checkbox" name="" id="">
+            <label class="flex flex-col items-center rounded-md" style="padding: 10px 14px;" for="add-travel-note">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center bg-[#E9F7FF]" > <img src="./assests/note.svg" alt=""></div>
+            <p class="color-primary font-gilroy-light font-normal font-size-10px">Notes</p>
+          </label>
+        </div>
+          <div class="add-travel-checkbox-container"> 
+            <input class="hidden" id="add-travel-finance" type="checkbox" name="" id="">
+            <label class="flex flex-col items-center rounded-md" style="padding: 10px 14px;" for="add-travel-finance">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center bg-[#E9F7FF]" > <img src="./assests/finance.svg" alt=""></div>
+            <p class="color-primary font-gilroy-light font-normal font-size-10px">Finances</p>
+          </label>
+        </div>
+            <div class="add-travel-checkbox-container"> 
+              <input class="hidden" id="add-travel-journey" type="checkbox" name="" id="">
+              <label class="flex flex-col items-center rounded-md" style="padding: 10px 14px;" for="add-travel-journey">
+              <div class="w-8 h-8 rounded-full flex items-center justify-center bg-[#E9F7FF]" > <img src="./assests/journey.svg" alt=""></div>
+              <p class="color-primary font-gilroy-light font-normal font-size-10px">Journeys</p>
+            </label>
           </div>
-          <div class="flex flex-col items-center">
-            <img src="../../globalAssets/icon-nav-button-rooms.svg" alt="">
-            <p
-              class="font-gilroy-bold font-normal text-center color-primary leading-6"
-              style="font-size: 13px"
-            >
-              Rooms
-            </p>
-          </div>
-          <div class="flex flex-col items-center">
-            <img src="../../globalAssets/icon-nav-button-menu.svg" alt="">
-            <p
-              class="font-gilroy-bold font-normal text-center color-primary leading-6"
-              style="font-size: 13px"
-            >
-              Menu
-            </p>
+            <div class="add-travel-checkbox-container"> 
+              <input class="hidden" id="add-travel-emergency" type="checkbox" name="" id="">
+              <label class="flex flex-col items-center rounded-md" style="padding: 10px 14px;" for="add-travel-emergency">
+              <div class="w-8 h-8 rounded-full flex items-center justify-center bg-[#E9F7FF]" > <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 8C1 4.70017 1 3.05025 2.02513 2.02513C3.05025 1 4.70017 1 8 1C11.2998 1 12.9497 1 13.9749 2.02513C15 3.05025 15 4.70017 15 8C15 11.2998 15 12.9497 13.9749 13.9749C12.9497 15 11.2998 15 8 15C4.70017 15 3.05025 15 2.02513 13.9749C1 12.9497 1 11.2998 1 8Z" stroke="#1C274C"/>
+                <path d="M11.5 8.46634C11.5 11.453 9.01111 12.1997 7.76667 12.1997C6.67778 12.1997 4.5 11.453 4.5 8.46634C4.5 7.1673 5.24405 6.34259 5.86915 5.92749C6.15495 5.73771 6.51041 5.85901 6.52888 6.20158C6.56931 6.95114 7.14699 7.55322 7.59435 6.95045C8.00381 6.39876 8.20588 5.64957 8.20588 5.19967C8.20588 4.53693 8.87675 4.11578 9.40055 4.52183C10.4215 5.31328 11.5 6.63876 11.5 8.46634Z" stroke="#1C274C"/>
+                </svg>
+                </div>
+              <p class="color-primary font-gilroy-light font-normal font-size-10px">Emergencies</p>
+            </label>
           </div>
         </div>
-  </body>
+        
+    </div>
+    <div class="flex justify-center mt-5">
+      <button
+        class="px-3 py-2 w-28 h-11 bg-[#58ACDB] font-gilroy-bold text-base leading-6 font-normal text-white rounded-3xl  ">Next</button>
+    </div>
+    <!-- Footer  -->
+    <div class="mb-28"></div>
+    <div class="w-full flex justify-center fixed bottom-0 left-0 bg-white footer-menu"
+      style="width: 100%; padding: 9px 10px; gap: 60px">
+      <div class="flex flex-col items-center active-footer-tab">
+        <img src="../../globalAssets/icon-nav-bottom-home.svg" alt="">
+        <p class="font-gilroy-bold font-normal text-center color-primary leading-6" style="font-size: 13px">
+          Home
+        </p>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="../../globalAssets/icon-nav-button-rooms.svg" alt="">
+        <p class="font-gilroy-bold font-normal text-center color-primary leading-6" style="font-size: 13px">
+          Rooms
+        </p>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="../../globalAssets/icon-nav-button-menu.svg" alt="">
+        <p class="font-gilroy-bold font-normal text-center color-primary leading-6" style="font-size: 13px">
+          Menu
+        </p>
+      </div>
+    </div>
+</body>
+
 </html>
