@@ -1,94 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../../output.css" />
-  </head>
-  <body >
-    <div class="flex items-center gap-2 mt-3">
-      <img
-        class="ml-5 "
-        src="../../globalAssets/icon-navbutton-back.svg"
-        alt=""
-      />
-      <p
-        class="color-primary text-left font-gilroy-extrabold text-sm font-normal leading-3"
-      >
-        Room Name
-      </p>
-    </div>
-    <div class="flex justify-center flex-col ml-5 mr-5 items-center mt-5">
-      <p
-        class="color-primary text-left font-gilroy-extrabold text-xl font-normal leading-3"
-      >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../../output.css" />
+</head>
+
+<body>
+  <div class="flex items-center gap-2 mt-3">
+    <img class="ml-5 " src="../../globalAssets/icon-navbutton-back.svg" alt="" />
+    <p class="color-primary text-left font-gilroy-extrabold text-sm font-normal leading-3">
+      Room Name
+    </p>
+  </div>
+  <div class="flex justify-center flex-col ml-5 mr-5 items-center mt-5">
+    <p class="color-primary text-left font-gilroy-extrabold text-xl font-normal leading-3">
       Task Manager
-      </p>
-      <p
-        class="font-size-13px  leading-4 text-center flex align-middle justify-center mt-5 font-gilroy-light color-primary"
-      >
+    </p>
+    <p
+      class="font-size-13px  leading-4 text-center flex align-middle justify-center mt-5 font-gilroy-light color-primary">
       Please give your room a name. This name will show as your room main page. Only admin can change it.
-      </p>
-      <img src="./assests/task-manager-image-create-room.svg" alt="">
-      <p
-        class="color-primary font-size-13px text-left font-gilroy-extrabold text-xs font-normal leading-3"
-      >
-        Upload a picture for this room
-      </p>
-      <img class="m-top10px" src="./assests/Group 18325.svg" alt="" />
+    </p>
+    <img src="./assests/task-manager-image-create-room.svg" alt="">
+    <p class="color-primary font-size-13px text-left font-gilroy-extrabold text-xs font-normal leading-3">
+      Upload a picture for this room
+    </p>
+    <img class="m-top10px" src="./assests/Group 18325.svg" alt="" />
+  </div>
+  <div class="ml-5 mr-5 mt-5">
+    <div class="mb-4">
+      <label class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary"
+        style="letter-spacing: 0.20000000298023224px" for="roomName">Room Name</label><br />
+      <input
+        class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary"
+        style="border: 1px solid #e4edfc; background-color: #f6f8fb" id="roomName" type="email" />
     </div>
-    <div class="ml-5 mr-5 mt-5">
-      <div class="mb-4">
-        <label
-          class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary"
-          style="letter-spacing: 0.20000000298023224px"
-          for="roomName"
-          >Room Name</label
-        ><br />
-        <input
-          class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary"
-          style="border: 1px solid #e4edfc; background-color: #f6f8fb"
-          id="roomName"
-          type="email"
-        />
+    <div class="flex justify-center mt-5">
+      <button
+        class="px-3 py-2 w-28 h-11 bg-[#47C3C9] font-gilroy-bold text-base leading-6 font-normal text-white rounded-3xl  ">Next</button>
+    </div>
+    <!-- Footer  -->
+    <div class="mb-28"></div>
+    <div class="w-full flex justify-center fixed bottom-0 left-0 bg-white footer-menu"
+      style="width: 100%; padding: 9px 10px; gap: 60px">
+      <div class="flex flex-col items-center active-footer-tab">
+        <img src="../../globalAssets/icon-nav-bottom-home.svg" alt="">
+        <p class="font-gilroy-bold font-normal text-center color-primary leading-6" style="font-size: 13px">
+          Home
+        </p>
       </div>
-      <div class="flex justify-center mt-5">
-        <button class="px-3 py-2 w-28 h-11 bg-[#47C3C9] font-gilroy-bold text-base leading-6 font-normal text-white rounded-3xl  ">Next</button>
+      <div class="flex flex-col items-center">
+        <img src="../../globalAssets/icon-nav-button-rooms.svg" alt="">
+        <p class="font-gilroy-bold font-normal text-center color-primary leading-6" style="font-size: 13px">
+          Rooms
+        </p>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="../../globalAssets/icon-nav-button-menu.svg" alt="">
+        <p class="font-gilroy-bold font-normal text-center color-primary leading-6" style="font-size: 13px">
+          Menu
+        </p>
+      </div>
     </div>
-        <!-- Footer  -->
-        <div class="mb-28"></div>
-        <div
-          class="w-full flex justify-center fixed bottom-0 left-0 bg-white footer-menu"
-          style="width: 100%; padding: 9px 10px; gap: 60px"
-        >
-          <div class="flex flex-col items-center active-footer-tab">
-            <img src="../../globalAssets/icon-nav-bottom-home.svg" alt="">
-            <p
-              class="font-gilroy-bold font-normal text-center color-primary leading-6"
-              style="font-size: 13px"
-            >
-              Home
-            </p>
-          </div>
-          <div class="flex flex-col items-center">
-            <img src="../../globalAssets/icon-nav-button-rooms.svg" alt="">
-            <p
-              class="font-gilroy-bold font-normal text-center color-primary leading-6"
-              style="font-size: 13px"
-            >
-              Rooms
-            </p>
-          </div>
-          <div class="flex flex-col items-center">
-            <img src="../../globalAssets/icon-nav-button-menu.svg" alt="">
-            <p
-              class="font-gilroy-bold font-normal text-center color-primary leading-6"
-              style="font-size: 13px"
-            >
-              Menu
-            </p>
-          </div>
-        </div>
-  </body>
+</body>
+
 </html>
