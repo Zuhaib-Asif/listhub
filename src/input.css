@@ -187,4 +187,12 @@
   .add-travel-checkbox-container input:checked ~ label p {
     font-family: "Gilroy-Bold";
   }
+
+  .right-138px {
+    right: 138px;
+  }
+
+  .top-56px {
+    top: 56px;
+  }
 }

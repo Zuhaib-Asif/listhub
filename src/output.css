@@ -891,6 +891,10 @@ video {
   top: 2.75rem;
 }
 
+.top-14{
+  top: 3.5rem;
+}
+
 .top-28{
   top: 7rem;
 }
@@ -949,6 +953,10 @@ video {
 
 .ml-5{
   margin-left: 1.25rem;
+}
+
+.mr-1{
+  margin-right: 0.25rem;
 }
 
 .mr-5{
@@ -1069,6 +1077,10 @@ video {
 
 .w-2\/6{
   width: 33.333333%;
+}
+
+.w-24{
+  width: 6rem;
 }
 
 .w-28{
@@ -1262,6 +1274,11 @@ video {
   background-color: rgb(214 234 233 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#D8F892\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(216 248 146 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#E3ECAF\]{
   --tw-bg-opacity: 1;
   background-color: rgb(227 236 175 / var(--tw-bg-opacity));
@@ -1275,6 +1292,11 @@ video {
 .bg-\[\#E9F7FF\]{
   --tw-bg-opacity: 1;
   background-color: rgb(233 247 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#F1FFD1\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 255 209 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#F7E7FF\]{
@@ -1300,16 +1322,6 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#D8F892\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(216 248 146 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#F1FFD1\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 255 209 / var(--tw-bg-opacity));
 }
 
 .bg-none{
@@ -1459,6 +1471,10 @@ video {
   line-height: 1rem;
 }
 
+.font-extrabold{
+  font-weight: 800;
+}
+
 .font-normal{
   font-weight: 400;
 }
@@ -1475,14 +1491,14 @@ video {
   line-height: 1.5rem;
 }
 
-.text-white{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .opacity-50{
@@ -1536,10 +1552,6 @@ video {
 
 .border-color-primary-Purple {
   border: 1px solid #9b63b8;
-}
-
-.border-color-dark-Yellow {
-  border: 1px solid #aebf48;
 }
 
 .border-color-light-brown {
@@ -1628,4 +1640,8 @@ video {
 
 .add-travel-checkbox-container input:checked ~ label p {
   font-family: "Gilroy-Bold";
+}
+
+.right-138px {
+  right: 138px;
 }
