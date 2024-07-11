@@ -175,6 +175,9 @@
   .active-footer-tab p {
     color: #48bfaa;
   }
+  .text-primary {
+    color: #48bfaa;
+  }
   .backGround-lightGreen {
     background-color: #e7ffe8;
   }
@@ -192,6 +195,9 @@
     right: 138px;
   }
 
+  .text-red {
+    color: #d65559;
+  }
   .top-56px {
     top: 56px;
   }
