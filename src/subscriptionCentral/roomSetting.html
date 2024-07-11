@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../output.css" />
+  </head>
+  <body>
+    <div class="pt-2 pb-4 px-5">
+      <div class="flex gap-2 items-center pb-1">
+        <a
+          href="#"
+          class="width-26px height-26px rounded-full flex items-center justify-center"
+          style="background-color: #f5f5f5"
+        >
+          <img class="rotate-90" src="../globalAssets/arrow.svg" alt="" />
+        </a>
+        <p
+          class="font-gilroy-extrabold font-normal text-sm leading-4 text-center color-primary"
+        >
+          Room Settings
+        </p>
+      </div>
+
+      <div class="flex justify-center flex-col ml-5 mr-5 items-center mt-5">
+        <img class="mt-2" src="../globalAssets/upload-icon.svg" alt="" />
+      </div>
+      <div class="mt-4">
+        <div class="mb-4">
+          <label
+            class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary"
+            style="letter-spacing: 0.20000000298023224px"
+            for="roomName"
+            >Room Name</label
+          ><br />
+          <input
+            class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary"
+            style="border: 1px solid #e4edfc; background-color: #f6f8fb"
+            id="roomName"
+            type="text"
+          />
+        </div>
+        <p
+          class="font-gilroy-bold m-top15px font-normal text-left font-size-13px m-Bottom10px leading-3 color-primary"
+          style="letter-spacing: 0.20000000298023224px"
+        >
+          Members
+        </p>
+        <div
+          class="py-3 px-3 radius-10px m-Bottom10px outline-none bg-white font-gilroy-semibold color-primary"
+          style="box-shadow: 0px 0px 15px 0px #0000000d"
+        >
+          <div class="flex gap-3">
+            <div>
+              <img
+                style="width: 33px; height: 33px"
+                src="../globalAssets/dp.svg"
+                alt=""
+              />
+            </div>
+            <div>
+              <p
+                class="font-gilroy-extrabold mb-1 font-normal text-sm leading-3"
+              >
+                First Last
+              </p>
+              <div
+                class="bg-[#66AAA6] text-center font-size-10px font-gilroy-light text-Color-white rounded-lg inline-block px-2"
+                style="width: max-content"
+              >
+                <p>Owner</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex justify-between py-3 m-Bottom10px px-3 radius-10px outline-none bg-white font-gilroy-semibold color-primary"
+          style="box-shadow: 0px 0px 15px 0px #0000000d"
+        >
+          <div class="flex gap-3">
+            <img
+              style="width: 33px; height: 33px"
+              src="../globalAssets/dp.svg"
+              alt=""
+            />
+            <div>
+              <p
+                class="font-gilroy-extrabold mb-1 font-normal text-sm leading-3"
+              >
+                First Last
+              </p>
+              <div
+                class="text-center font-size-10px font-gilroy-light bg-[#D6EAE9] color-primary rounded-lg px-2"
+                style="width: max-content"
+              >
+                Member
+              </div>
+            </div>
+          </div>
+          <img src="../globalAssets/icon-remove.svg" alt="" />
+        </div>
+        <div
+          class="flex justify-between py-3 m-Bottom10px px-3 radius-10px outline-none bg-white font-gilroy-semibold color-primary"
+          style="box-shadow: 0px 0px 15px 0px #0000000d"
+        >
+          <div class="flex gap-3">
+            <img
+              style="width: 33px; height: 33px"
+              src="../globalAssets/dp.svg"
+              alt=""
+            />
+            <div>
+              <p
+                class="font-gilroy-extrabold mb-1 font-normal text-sm leading-3"
+              >
+                First Last
+              </p>
+              <div
+                class="flex gap-1 text-center font-size-10px font-gilroy-light color-primary rounded-lg"
+                style="width: max-content"
+              >
+                <p class="bg-[#D6EAE9] px-2">Member</p>
+                <span class="font-gilroy-light-italic bg-none"
+                  >Pending Invitation</span
+                >
+              </div>
+            </div>
+          </div>
+          <img src="../globalAssets/icon-remove.svg" alt="" />
+        </div>
+        <div
+          class="flex justify-between py-3 m-Bottom10px px-3 radius-10px outline-none bg-white font-gilroy-semibold color-primary"
+          style="box-shadow: 0px 0px 15px 0px #0000000d"
+        >
+          <div class="flex gap-3">
+            <div>
+              <p
+                class="font-gilroy-extrabold mb-1 font-normal text-sm leading-3"
+              >
+                tina@gmail.com
+              </p>
+              <div
+                class="flex gap-1 text-center font-size-10px font-gilroy-light color-primary rounded-lg"
+                style="width: max-content"
+              >
+                <p class="bg-[#D6EAE9] px-2">Member</p>
+                <span class="font-gilroy-light-italic bg-none"
+                  >Pending Invitation</span
+                >
+              </div>
+            </div>
+          </div>
+          <img src="../globalAssets/icon-remove.svg" alt="" />
+        </div>
+        <div class="flex justify-center">
+          <button
+            class="rounded-xl font-gilroy-bold font-size-13px color-primary m-top15px p-2"
+            style="border: 1px solid #66aaa6"
+          >
+            Add member
+          </button>
+        </div>
+
+        <div
+          class="flex justify-center mt-14 gap-1 font-gilroy-bold text-sm"
+          style="color: #d65555"
+        >
+          <button>Delete Room</button> / <button>Leave Room</button>
+        </div>
+        <div class="flex justify-center mt-5">
+          <button
+            class="px-3 py-2 w-28 h-11 font-gilroy-bold text-base leading-6 font-normal text-white rounded-3xl bg-[#66AAA6]"
+          >
+            Update
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer  -->
+    <div class="mb-16"></div>
+    <div
+      class="w-full flex justify-center fixed bottom-0 left-0 bg-white footer-menu"
+      style="width: 100%; padding: 9px 10px; gap: 60px"
+    >
+      <div class="flex flex-col items-center active-footer-tab">
+        <img src="../globalAssets/icon-nav-bottom-home.svg" alt="" />
+        <p
+          class="font-gilroy-bold font-normal text-center color-primary leading-6"
+          style="font-size: 13px"
+        >
+          Home
+        </p>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="../globalAssets/icon-nav-button-rooms.svg" alt="" />
+        <p
+          class="font-gilroy-bold font-normal text-center color-primary leading-6"
+          style="font-size: 13px"
+        >
+          Rooms
+        </p>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="../globalAssets/icon-nav-button-menu.svg" alt="" />
+        <p
+          class="font-gilroy-bold font-normal text-center color-primary leading-6"
+          style="font-size: 13px"
+        >
+          Menu
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
