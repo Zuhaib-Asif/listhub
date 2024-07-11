@@ -955,6 +955,10 @@ video {
   margin-left: 1.25rem;
 }
 
+.mr-1{
+  margin-right: 0.25rem;
+}
+
 .mr-5{
   margin-right: 1.25rem;
 }
@@ -1089,6 +1093,10 @@ video {
 
 .w-2\/6{
   width: 33.333333%;
+}
+
+.w-24{
+  width: 6rem;
 }
 
 .w-28{
@@ -1502,6 +1510,10 @@ video {
   line-height: 1rem;
 }
 
+.font-extrabold{
+  font-weight: 800;
+}
+
 .font-normal{
   font-weight: 400;
 }
@@ -1677,4 +1689,12 @@ video {
 
 .add-travel-checkbox-container input:checked ~ label p {
   font-family: "Gilroy-Bold";
+}
+
+.right-138px {
+  right: 138px;
+}
+
+.top-56px {
+  top: 56px;
 }
