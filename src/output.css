@@ -1813,6 +1813,10 @@ video {
   font-family: "Gilroy-Bold";
 }
 
+.appearance-select-container input:checked ~ label {
+  background-color: #e3ecaf;
+}
+
 .right-138px {
   right: 138px;
 }
