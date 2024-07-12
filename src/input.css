@@ -26,10 +26,6 @@
   .body-background-light-brown {
     background-color: #ffe7e7;
   }
-
-  .text-Color-white {
-    color: #ffffff;
-  }
 }
 
 @layer components {
@@ -192,6 +188,10 @@
   }
   .add-travel-checkbox-container input:checked ~ label p {
     font-family: "Gilroy-Bold";
+  }
+
+  .appearance-select-container input:checked ~ label {
+    background-color: #e3ecaf;
   }
 
   .right-138px {
