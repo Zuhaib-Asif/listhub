@@ -979,6 +979,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mb-7{
+  margin-bottom: 1.75rem;
+}
+
 .ml-5{
   margin-left: 1.25rem;
 }
@@ -1446,6 +1450,14 @@ video {
   background-image: none;
 }
 
+.p-0{
+  padding: 0px;
+}
+
+.p-0\.5{
+  padding: 0.125rem;
+}
+
 .p-1{
   padding: 0.25rem;
 }
@@ -1506,6 +1518,11 @@ video {
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .pb-1{
@@ -1769,6 +1786,10 @@ video {
 
 .font-size-13px {
   font-size: 13px;
+}
+
+.font-size-7px {
+  font-size: 7px;
 }
 
 .gap-10px {
