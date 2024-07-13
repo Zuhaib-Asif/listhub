@@ -74,6 +74,14 @@
     margin-top: 5px;
     color: #2e3553;
   }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .break-inside-avoid {
+    break-inside: avoid;
+  }
 }
 
 @layer utilities {
