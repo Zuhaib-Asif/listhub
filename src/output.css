@@ -956,10 +956,6 @@ video {
   top: 11rem;
 }
 
-.bottom-16{
-  bottom: 4rem;
-}
-
 .z-10{
   z-index: 10;
 }
@@ -1248,13 +1244,12 @@ video {
   width: 1.25rem;
 }
 
-<<<<<<< HEAD
 .w-52{
   width: 13rem;
-=======
+}
+
 .w-60{
   width: 15rem;
->>>>>>> daa43827f07ec1da58b4a4fd9f572316b63abc9e
 }
 
 .w-8{
@@ -1655,21 +1650,8 @@ video {
   padding: 0.75rem;
 }
 
-<<<<<<< HEAD
-.p-11{
-  padding: 2.75rem;
-}
-
-.p-6{
-  padding: 1.5rem;
-}
-
-.p-4{
-  padding: 1rem;
-=======
 .p-5{
   padding: 1.25rem;
->>>>>>> daa43827f07ec1da58b4a4fd9f572316b63abc9e
 }
 
 .px-1{
