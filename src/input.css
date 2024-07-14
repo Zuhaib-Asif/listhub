@@ -203,6 +203,9 @@
   .add-travel-checkbox-container input:checked ~ label p {
     font-family: "Gilroy-Bold";
   }
+  .subscription-plan:checked + label {
+    border: 1px solid var(--background-color-green-primary);
+  }
 
   .appearance-select-container input:checked ~ label {
     background-color: #e3ecaf;
