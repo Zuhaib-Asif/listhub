@@ -685,6 +685,10 @@ video {
   color: var(--color-purple-primary);
 }
 
+.dark-color-primary {
+  color: var(--dark-color-primary);
+}
+
 .color-primary-green {
   color: var(--color-green-primary);
 }
