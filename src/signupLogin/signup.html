@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../output.css" />
   </head>
-  <body>
+  <body class="dark:bg-dark">
     <div class="my-5" style="padding: 0 30px">
       <div class="w-full h-1 relative bg-[#f4f4f4]">
         <div
@@ -17,13 +17,13 @@
     <div style="padding: 0 30px; margin-bottom: 51px">
       <div>
         <p
-          class="font-gilroy-extrabold font-normal text-xl leading-4 text-center color-primary"
+          class="font-gilroy-extrabold font-normal text-xl leading-4 text-center color-primary color-primary dark:dark-color-primary"
         >
           Sign up
         </p>
       </div>
       <p
-        class="font-gilroy-light font-normal font-size-13px text-center mt-5 color-primary leading-4"
+        class="font-gilroy-light font-normal font-size-13px text-center mt-5 color-primary dark:dark-color-primary leading-4"
       >
         Create your free account in 4 steps and access all of the features and
         benefits fo Sharble!
@@ -48,49 +48,46 @@
       <div>
         <div class="mb-4">
           <label
-            class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary"
+            class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary color-primary dark:dark-color-primary"
             style="letter-spacing: 0.20000000298023224px"
             for="signup-fname"
             >First Name</label
           ><br />
           <input
-            class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary bg-[#f6f8fb]"
-            style="border: 1px solid #e4edfc"
+            class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary dark:dark-color-primary bg-light-card dark:bg-dark-card border-light dark:border-dark"
             id="signup-fname"
             type="text"
           />
         </div>
         <div class="mb-4">
           <label
-            class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary"
+            class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary color-primary dark:dark-color-primary"
             style="letter-spacing: 0.20000000298023224px"
             for="signup-lname"
             >Last Name</label
           ><br />
           <input
-            class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary bg-[#f6f8fb]"
-            style="border: 1px solid #e4edfc"
+            class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary dark:dark-color-primary bg-light-card dark:bg-dark-card border-light dark:border-dark"
             id="signup-lname"
             type="text"
           />
         </div>
         <div class="mb-4">
           <label
-            class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary"
+            class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary color-primary dark:dark-color-primary"
             style="letter-spacing: 0.20000000298023224px"
             for="signup-email"
             >Email</label
           ><br />
           <input
-            class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary bg-[#f6f8fb]"
-            style="border: 1px solid #e4edfc"
+            class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary dark:dark-color-primary bg-light-card dark:bg-dark-card border-light dark:border-dark"
             id="signup-email"
             type="email"
           />
         </div>
         <div class="mb-4 relative">
           <label
-            class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary"
+            class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary color-primary dark:dark-color-primary"
             style="letter-spacing: 0.20000000298023224px"
             for="signup-password"
             >Password</label
@@ -101,15 +98,14 @@
             alt=""
           />
           <input
-            class="w-full py-3 pl-5 pr-14 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary bg-[#f6f8fb]"
-            style="border: 1px solid #e4edfc"
+            class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary dark:dark-color-primary bg-light-card dark:bg-dark-card border-light dark:border-dark"
             id="signup-password"
             type="text"
           />
         </div>
         <div class="mb-4 relative">
           <label
-            class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary"
+            class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary color-primary dark:dark-color-primary"
             style="letter-spacing: 0.20000000298023224px"
             for="signup-rpassword"
             >Repeat Password</label
@@ -120,8 +116,7 @@
             alt=""
           />
           <input
-            class="w-full py-3 pl-5 pr-14 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary bg-[#f6f8fb]"
-            style="border: 1px solid #e4edfc"
+            class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary dark:dark-color-primary bg-light-card dark:bg-dark-card border-light dark:border-dark"
             id="signup-rpassword"
             type="text"
           />
@@ -133,7 +128,10 @@
             type="checkbox"
             style="accent-color: #48bfaa"
           />
-          <label for="signup-agree" class="color-primary font-size-13px">
+          <label
+            for="signup-agree"
+            class="color-primary dark:dark-color-primary font-size-13px"
+          >
             I agree with the terms and conditions and also the protection of my
             personal data on Sharble.
           </label>

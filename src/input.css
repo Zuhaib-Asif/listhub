@@ -2,9 +2,22 @@
 
 :root {
   --color-purple-primary: #2e3553;
+  --dark-color-primary: #a2b1c0;
+
   --color-green-primary: #48bfaa;
-  --background-color-purple-primary: #2e3553;
   --background-color-green-primary: #48bfaa;
+
+  --background-color-purple-primary: #2e3553;
+  --background-dark-primary: #1a1e24;
+
+  --background-light-card: #f6f8fb;
+  --background-dark-card: #1f242b;
+
+  --border-light: #e4edfc;
+  --border-dark: #404954;
+
+  --background-gradient: linear-gradient(180deg, #4a5058 0%, #1a1e24 100%);
+  --background-dark-gradient: linear-gradient(180deg, #4a5058 0%, #1a1e24 100%);
 }
 
 @tailwind base;
@@ -12,10 +25,6 @@
 @tailwind utilities;
 
 @layer base {
-  /* h1 {
-        font-size: 2rem;
-        color: #333;
-      } */
   .body-background {
     background: linear-gradient(180deg, #ffffff 0%, #eef6fe 100%);
   }
@@ -25,6 +34,50 @@
   }
   .body-background-light-brown {
     background-color: #ffe7e7;
+  }
+
+  .color-primary {
+    color: var(--color-purple-primary);
+  }
+
+  .dark-color-primary {
+    color: var(--dark-color-primary);
+  }
+
+  .color-primary-green {
+    color: var(--color-green-primary);
+  }
+
+  .background-color-primary {
+    background-color: var(--background-color-purple-primary);
+  }
+
+  .background-color-primary-green {
+    background-color: var(--background-color-green-primary);
+  }
+
+  .bg-dark {
+    background: var(--background-dark-primary);
+  }
+
+  .bg-dark-gradient {
+    background: var(--background-dark-gradient);
+  }
+
+  .bg-light-card {
+    background: var(--background-light-card);
+  }
+
+  .bg-dark-card {
+    background: var(--background-dark-card);
+  }
+
+  .border-light {
+    border: 1px solid var(--border-light);
+  }
+
+  .border-dark {
+    border: 1px solid var(--border-dark);
   }
 }
 
@@ -86,22 +139,6 @@
 
 @layer utilities {
   /* For Utility classes  */
-  /* .font-20px {
-    font-size: 20px;
-  } */
-  .color-primary {
-    color: var(--color-purple-primary);
-  }
-  .color-primary-green {
-    color: var(--color-green-primary);
-  }
-  .background-color-primary {
-    background-color: var(--background-color-purple-primary);
-  }
-  .background-color-primary-green {
-    background-color: var(--background-color-green-primary);
-  }
-
   .border-color-primary-green {
     border: 1px solid #48bfaa;
   }

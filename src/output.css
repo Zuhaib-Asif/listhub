@@ -214,9 +214,17 @@
 
 :root {
   --color-purple-primary: #2e3553;
+  --dark-color-primary: #a2b1c0;
   --color-green-primary: #48bfaa;
-  --background-color-purple-primary: #2e3553;
   --background-color-green-primary: #48bfaa;
+  --background-color-purple-primary: #2e3553;
+  --background-dark-primary: #1a1e24;
+  --background-light-card: #f6f8fb;
+  --background-dark-card: #1f242b;
+  --border-light: #e4edfc;
+  --border-dark: #404954;
+  --background-gradient: linear-gradient(180deg, #4a5058 0%, #1a1e24 100%);
+  --background-dark-gradient: linear-gradient(180deg, #4a5058 0%, #1a1e24 100%);
 }
 
 /* ! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com */
@@ -665,17 +673,36 @@ video {
   display: none;
 }
 
-/* h1 {
-        font-size: 2rem;
-        color: #333;
-      } */
-
 .body-background {
   background: linear-gradient(180deg, #ffffff 0%, #eef6fe 100%);
 }
 
 .body-background-brown {
   background-color: #d65555;
+}
+
+.color-primary {
+  color: var(--color-purple-primary);
+}
+
+.color-primary-green {
+  color: var(--color-green-primary);
+}
+
+.background-color-primary {
+  background-color: var(--background-color-purple-primary);
+}
+
+.background-color-primary-green {
+  background-color: var(--background-color-green-primary);
+}
+
+.bg-light-card {
+  background: var(--background-light-card);
+}
+
+.border-light {
+  border: 1px solid var(--border-light);
 }
 
 *, ::before, ::after{
@@ -1439,10 +1466,6 @@ video {
   border-style: none;
 }
 
-.bg-\[\#\#DBB83E\]{
-  background-color: ##DBB83E;
-}
-
 .bg-\[\#0000000D\]{
   background-color: #0000000D;
 }
@@ -1700,6 +1723,15 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#fcfbfc\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 251 252 / var(--tw-bg-opacity));
+}
+
+.bg-\[\]{
+  background-color: ;
 }
 
 .bg-none{
@@ -2004,26 +2036,6 @@ video {
 
 /* For Utility classes  */
 
-/* .font-20px {
-    font-size: 20px;
-  } */
-
-.color-primary {
-  color: var(--color-purple-primary);
-}
-
-.color-primary-green {
-  color: var(--color-green-primary);
-}
-
-.background-color-primary {
-  background-color: var(--background-color-purple-primary);
-}
-
-.background-color-primary-green {
-  background-color: var(--background-color-green-primary);
-}
-
 .border-color-primary-green {
   border: 1px solid #48bfaa;
 }
@@ -2160,6 +2172,28 @@ video {
   top: 56px;
 }
 
+@media (prefers-color-scheme: dark){
+  .dark\:dark-color-primary {
+    color: var(--dark-color-primary);
+  }
+
+  .dark\:bg-dark {
+    background: var(--background-dark-primary);
+  }
+
+  .dark\:bg-dark-gradient {
+    background: var(--background-dark-gradient);
+  }
+
+  .dark\:bg-dark-card {
+    background: var(--background-dark-card);
+  }
+
+  .dark\:border-dark {
+    border: 1px solid var(--border-dark);
+  }
+}
+
 .after\:absolute::after{
   content: var(--tw-content);
   position: absolute;
@@ -2256,5 +2290,9 @@ video {
   .dark\:bg-white{
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+
+  .dark\:stroke-\[var\(--dark-color-primary\)\]{
+    stroke: var(--dark-color-primary);
   }
 }

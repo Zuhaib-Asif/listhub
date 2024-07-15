@@ -7,19 +7,32 @@
     <link rel="stylesheet" href="../output.css" />
   </head>
 
-  <body style="background: #fcfbfc">
+  <body class="bg-[#fcfbfc] dark:bg-dark">
     <div class="pt-2 pb-4 px-5">
       <div class="flex justify-between items-center pb-1">
         <div class="flex items-center gap-2">
           <a
             href="#"
-            class="width-26px height-26px rounded-full flex items-center justify-center"
-            style="background-color: #f5f5f5"
+            class="width-26px height-26px rounded-full flex items-center justify-center bg-light-card dark:bg-dark-card"
           >
-            <img class="rotate-90" src="../globalAssets/arrow.svg" alt="" />
+            <svg
+              width="9"
+              height="16"
+              viewBox="0 0 9 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="dark:stroke-[var(--dark-color-primary)]"
+                d="M7.85742 14.5L1.35742 8L7.85742 1.5"
+                stroke="#2E3553"
+                stroke-width="1.5"
+                stroke-linecap="square"
+              />
+            </svg>
           </a>
           <p
-            class="font-gilroy-extrabold font-normal text-sm leading-4 text-center color-primary"
+            class="font-gilroy-extrabold font-normal text-sm leading-4 text-center color-primary color-primary dark:dark-color-primary"
           >
             Shared apartment tasks
           </p>
@@ -63,19 +76,19 @@
           All
         </button>
         <button
-          class="py-2 px-5 font-gilroy-regular text-xs font-normal radius-10px min-w-max"
+          class="py-2 px-5 font-gilroy-regular text-xs font-normal radius-10px min-w-max color-primary dark:dark-color-primary"
           style="border: 1px solid #f7e7ff"
         >
           Movie
         </button>
         <button
-          class="py-2 px-5 font-gilroy-regular text-xs font-normal radius-10px min-w-max"
+          class="py-2 px-5 font-gilroy-regular text-xs font-normal radius-10px min-w-max color-primary dark:dark-color-primary"
           style="border: 1px solid #f7e7ff"
         >
           Comedy Show
         </button>
         <button
-          class="py-2 px-5 font-gilroy-regular text-xs font-normal radius-10px min-w-max"
+          class="py-2 px-5 font-gilroy-regular text-xs font-normal radius-10px min-w-max color-primary dark:dark-color-primary"
           style="border: 1px solid #f7e7ff"
         >
           Sport Event
@@ -85,18 +98,18 @@
       <div class="flex flex-col gap-10px">
         <p class="text-[#9B63B8] font-gilroy-bold font-size-10px">OPEN</p>
         <div
-          class="bg-white flex justify-between"
+          class="bg-white flex justify-between dark:bg-dark-card"
           style="border-radius: 10px; padding: 13px 10px 12px 20px"
         >
           <div>
             <p
-              class="font-gilroy-extrabold font-normal color-primary w-40 leading-3"
+              class="font-gilroy-extrabold font-normal color-primary dark:dark-color-primary w-40 leading-3"
               style="font-size: 13px"
             >
               Black Panther
             </p>
             <p
-              class="font-gilroy-light font-size-8px color-primary text-left"
+              class="font-gilroy-light font-size-8px color-primary dark:dark-color-primary text-left"
               style="line-height: 9.38px; margin-top: 3px"
             >
               Movie
@@ -106,7 +119,9 @@
             </div>
           </div>
           <div class="flex" style="gap: 5px">
-            <p class="font-gilroy-light text-xs color-primary text-right">
+            <p
+              class="font-gilroy-light text-xs color-primary dark:dark-color-primary text-right"
+            >
               Duplex Cinema
             </p>
             <div class="gap-10px flex flex-col items-end">
@@ -134,18 +149,18 @@
           </div>
         </div>
         <div
-          class="bg-white flex justify-between"
+          class="bg-white flex justify-between dark:bg-dark-card"
           style="border-radius: 10px; padding: 13px 10px 12px 20px"
         >
           <div>
             <p
-              class="font-gilroy-extrabold font-normal color-primary w-40 leading-3"
+              class="font-gilroy-extrabold font-normal color-primary dark:dark-color-primary w-40 leading-3"
               style="font-size: 13px"
             >
               Black Panther
             </p>
             <p
-              class="font-gilroy-light font-size-8px color-primary text-left"
+              class="font-gilroy-light font-size-8px color-primary dark:dark-color-primary text-left"
               style="line-height: 9.38px; margin-top: 3px"
             >
               Movie
@@ -155,7 +170,9 @@
             </div>
           </div>
           <div class="flex" style="gap: 5px">
-            <p class="font-gilroy-light text-xs color-primary text-right">
+            <p
+              class="font-gilroy-light text-xs color-primary dark:dark-color-primary text-right"
+            >
               Netflix
             </p>
             <div class="gap-10px flex flex-col items-end">
@@ -174,7 +191,7 @@
                 ></span>
               </div>
               <p
-                class="font-gilroy-regular text-xs color-primary text-right"
+                class="font-gilroy-regular text-xs color-primary dark:dark-color-primary text-right"
                 style="line-height: 14px"
               >
                 Today
@@ -183,18 +200,18 @@
           </div>
         </div>
         <div
-          class="bg-white flex justify-between"
+          class="bg-white flex justify-between dark:bg-dark-card"
           style="border-radius: 10px; padding: 13px 10px 12px 20px"
         >
           <div>
             <p
-              class="font-gilroy-extrabold font-normal color-primary w-40 leading-3"
+              class="font-gilroy-extrabold font-normal color-primary dark:dark-color-primary w-40 leading-3"
               style="font-size: 13px"
             >
               Black Panther
             </p>
             <p
-              class="font-gilroy-light font-size-8px color-primary text-left"
+              class="font-gilroy-light font-size-8px color-primary dark:dark-color-primary text-left"
               style="line-height: 9.38px; margin-top: 3px"
             >
               Movie
@@ -204,7 +221,9 @@
             </div>
           </div>
           <div class="flex" style="gap: 5px">
-            <p class="font-gilroy-light text-xs color-primary text-right">
+            <p
+              class="font-gilroy-light text-xs color-primary dark:dark-color-primary text-right"
+            >
               Netflix
             </p>
             <div class="gap-10px flex flex-col items-end">
@@ -223,7 +242,7 @@
                 ></span>
               </div>
               <p
-                class="font-gilroy-regular text-xs color-primary text-right"
+                class="font-gilroy-regular text-xs color-primary dark:dark-color-primary text-right"
                 style="line-height: 14px"
               >
                 Today
@@ -232,18 +251,18 @@
           </div>
         </div>
         <div
-          class="bg-white flex justify-between"
+          class="bg-white flex justify-between dark:bg-dark-card"
           style="border-radius: 10px; padding: 13px 10px 12px 20px"
         >
           <div>
             <p
-              class="font-gilroy-extrabold font-normal color-primary w-40 leading-3"
+              class="font-gilroy-extrabold font-normal color-primary dark:dark-color-primary w-40 leading-3"
               style="font-size: 13px"
             >
               Black Panther
             </p>
             <p
-              class="font-gilroy-light font-size-8px color-primary text-left"
+              class="font-gilroy-light font-size-8px color-primary dark:dark-color-primary text-left"
               style="line-height: 9.38px; margin-top: 3px"
             >
               Movie
@@ -253,7 +272,9 @@
             </div>
           </div>
           <div class="flex" style="gap: 5px">
-            <p class="font-gilroy-light text-xs color-primary text-right">
+            <p
+              class="font-gilroy-light text-xs color-primary dark:dark-color-primary text-right"
+            >
               Netflix
             </p>
             <div class="gap-10px flex flex-col items-end">
@@ -272,7 +293,7 @@
                 ></span>
               </div>
               <p
-                class="font-gilroy-regular text-xs color-primary text-right"
+                class="font-gilroy-regular text-xs color-primary dark:dark-color-primary text-right"
                 style="line-height: 14px"
               >
                 Today
@@ -283,20 +304,22 @@
       </div>
 
       <div class="flex flex-col gap-10px mt-5">
-        <p class="font-gilroy-bold font-size-10px">COMPLETED</p>
+        <p class="font-gilroy-bold font-size-10px dark:dark-color-primary">
+          COMPLETED
+        </p>
         <div
-          class="bg-white flex justify-between opacity-50"
+          class="bg-white flex justify-between opacity-50 dark:bg-dark-card"
           style="border-radius: 10px; padding: 13px 10px 12px 20px"
         >
           <div>
             <p
-              class="font-gilroy-extrabold font-normal color-primary w-40 leading-3"
+              class="font-gilroy-extrabold font-normal color-primary dark:dark-color-primary w-40 leading-3"
               style="font-size: 13px"
             >
               Black Panther
             </p>
             <p
-              class="font-gilroy-light font-size-8px color-primary text-left"
+              class="font-gilroy-light font-size-8px color-primary dark:dark-color-primary text-left"
               style="line-height: 9.38px; margin-top: 3px"
             >
               Movie
@@ -306,7 +329,9 @@
             </div>
           </div>
           <div class="flex" style="gap: 5px">
-            <p class="font-gilroy-light text-xs color-primary text-right">
+            <p
+              class="font-gilroy-light text-xs color-primary dark:dark-color-primary text-right"
+            >
               Netflix
             </p>
             <div class="gap-10px flex flex-col items-end">
@@ -325,7 +350,7 @@
                 ></span>
               </div>
               <p
-                class="font-gilroy-regular text-xs color-primary text-right"
+                class="font-gilroy-regular text-xs color-primary dark:dark-color-primary text-right"
                 style="line-height: 14px"
               >
                 Today
@@ -334,18 +359,18 @@
           </div>
         </div>
         <div
-          class="bg-white flex justify-between opacity-50"
+          class="bg-white flex justify-between opacity-50 dark:bg-dark-card"
           style="border-radius: 10px; padding: 13px 10px 12px 20px"
         >
           <div>
             <p
-              class="font-gilroy-extrabold font-normal color-primary w-40 leading-3"
+              class="font-gilroy-extrabold font-normal color-primary dark:dark-color-primary w-40 leading-3"
               style="font-size: 13px"
             >
               Black Panther
             </p>
             <p
-              class="font-gilroy-light font-size-8px color-primary text-left"
+              class="font-gilroy-light font-size-8px color-primary dark:dark-color-primary text-left"
               style="line-height: 9.38px; margin-top: 3px"
             >
               Movie
@@ -355,7 +380,9 @@
             </div>
           </div>
           <div class="flex" style="gap: 5px">
-            <p class="font-gilroy-light text-xs color-primary text-right">
+            <p
+              class="font-gilroy-light text-xs color-primary dark:dark-color-primary text-right"
+            >
               Netflix
             </p>
             <div class="gap-10px flex flex-col items-end">
@@ -374,7 +401,7 @@
                 ></span>
               </div>
               <p
-                class="font-gilroy-regular text-xs color-primary text-right"
+                class="font-gilroy-regular text-xs color-primary dark:dark-color-primary text-right"
                 style="line-height: 14px"
               >
                 Today
@@ -384,20 +411,22 @@
         </div>
       </div>
       <div class="flex flex-col gap-10px mt-5">
-        <p class="font-gilroy-bold font-size-10px">CANCELED</p>
+        <p class="font-gilroy-bold font-size-10px dark:dark-color-primary">
+          CANCELED
+        </p>
         <div
-          class="bg-white flex justify-between opacity-50"
+          class="bg-white flex justify-between opacity-50 dark:bg-dark-card"
           style="border-radius: 10px; padding: 13px 10px 12px 20px"
         >
           <div>
             <p
-              class="font-gilroy-extrabold font-normal color-primary w-40 leading-3"
+              class="font-gilroy-extrabold font-normal color-primary dark:dark-color-primary w-40 leading-3"
               style="font-size: 13px"
             >
               Black Panther
             </p>
             <p
-              class="font-gilroy-light font-size-8px color-primary text-left"
+              class="font-gilroy-light font-size-8px color-primary dark:dark-color-primary text-left"
               style="line-height: 9.38px; margin-top: 3px"
             >
               Movie
@@ -407,7 +436,9 @@
             </div>
           </div>
           <div class="flex" style="gap: 5px">
-            <p class="font-gilroy-light text-xs color-primary text-right">
+            <p
+              class="font-gilroy-light text-xs color-primary dark:dark-color-primary text-right"
+            >
               Netflix
             </p>
             <div class="gap-10px flex flex-col items-end">
@@ -426,7 +457,7 @@
                 ></span>
               </div>
               <p
-                class="font-gilroy-regular text-xs color-primary text-right"
+                class="font-gilroy-regular text-xs color-primary dark:dark-color-primary text-right"
                 style="line-height: 14px"
               >
                 Today
@@ -435,18 +466,18 @@
           </div>
         </div>
         <div
-          class="bg-white flex justify-between opacity-50"
+          class="bg-white flex justify-between opacity-50 dark:bg-dark-card"
           style="border-radius: 10px; padding: 13px 10px 12px 20px"
         >
           <div>
             <p
-              class="font-gilroy-extrabold font-normal color-primary w-40 leading-3"
+              class="font-gilroy-extrabold font-normal color-primary dark:dark-color-primary w-40 leading-3"
               style="font-size: 13px"
             >
               Black Panther
             </p>
             <p
-              class="font-gilroy-light font-size-8px color-primary text-left"
+              class="font-gilroy-light font-size-8px color-primary dark:dark-color-primary text-left"
               style="line-height: 9.38px; margin-top: 3px"
             >
               Movie
@@ -456,13 +487,15 @@
             </div>
           </div>
           <div class="flex" style="gap: 5px">
-            <p class="font-gilroy-light text-xs color-primary text-right">
+            <p
+              class="font-gilroy-light text-xs color-primary dark:dark-color-primary text-right"
+            >
               Netflix
             </p>
             <div class="gap-10px flex flex-col items-end">
               <div
-                class="flex justify-center items-center rounded-full width-26px height-26px"
-                style="gap: 1px; background-color: #f7e7ff"
+                class="flex justify-center items-center rounded-full width-26px height-26px bg-[#f7e7ff]"
+                style="gap: 1px"
               >
                 <span
                   class="w-1 h-1 background-color-primary rounded-full"
@@ -475,7 +508,7 @@
                 ></span>
               </div>
               <p
-                class="font-gilroy-regular text-xs color-primary text-right"
+                class="font-gilroy-regular text-xs color-primary dark:dark-color-primary text-right"
                 style="line-height: 14px"
               >
                 Today
@@ -501,7 +534,7 @@
       <div class="flex flex-col items-center active-footer-tab">
         <img src="../globalAssets/icon-nav-bottom-home.svg" alt="" />
         <p
-          class="font-gilroy-bold font-normal text-center color-primary leading-6"
+          class="font-gilroy-bold font-normal text-center color-primary dark:dark-color-primary leading-6"
           style="font-size: 13px"
         >
           Home
@@ -510,7 +543,7 @@
       <div class="flex flex-col items-center">
         <img src="../globalAssets/icon-nav-button-rooms.svg" alt="" />
         <p
-          class="font-gilroy-bold font-normal text-center color-primary leading-6"
+          class="font-gilroy-bold font-normal text-center color-primary dark:dark-color-primary leading-6"
           style="font-size: 13px"
         >
           Rooms
@@ -519,7 +552,7 @@
       <div class="flex flex-col items-center">
         <img src="../globalAssets/icon-nav-button-menu.svg" alt="" />
         <p
-          class="font-gilroy-bold font-normal text-center color-primary leading-6"
+          class="font-gilroy-bold font-normal text-center color-primary dark:dark-color-primary leading-6"
           style="font-size: 13px"
         >
           Menu
