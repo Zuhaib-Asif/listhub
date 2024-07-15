@@ -7,19 +7,32 @@
     <link rel="stylesheet" href="../output.css" />
   </head>
 
-  <body style="background: #fcfbfc">
+  <body class="bg-[#fcfbfc] dark:bg-dark">
     <div class="pt-2 pb-4 px-5">
       <div class="flex justify-between items-center pb-1">
         <div class="flex items-center gap-2">
           <a
             href="#"
-            class="width-26px height-26px rounded-full flex items-center justify-center"
-            style="background-color: #f5f5f5"
+            class="width-26px height-26px rounded-full flex items-center justify-center bg-light-card dark:bg-dark-card"
           >
-            <img class="rotate-90" src="../globalAssets/arrow.svg" alt="" />
+            <svg
+              width="9"
+              height="16"
+              viewBox="0 0 9 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="dark:stroke-[var(--dark-color-primary)]"
+                d="M7.85742 14.5L1.35742 8L7.85742 1.5"
+                stroke="#2E3553"
+                stroke-width="1.5"
+                stroke-linecap="square"
+              />
+            </svg>
           </a>
           <p
-            class="font-gilroy-extrabold font-normal text-sm leading-4 text-center color-primary color-primary dark:dark-color-primary"
+            class="font-gilroy-extrabold font-normal text-sm leading-4 text-center color-primary dark:dark-color-primary"
           >
             Shared apartment tasks
           </p>
@@ -63,36 +76,36 @@
           All
         </button>
         <button
-          class="py-2 px-5 font-gilroy-regular text-xs font-normal radius-10px min-w-max"
+          class="py-2 px-5 font-gilroy-regular dark:dark-color-primary text-xs font-normal radius-10px min-w-max"
           style="border: 1px solid #dbb83e"
         >
           Passport
         </button>
         <button
-          class="py-2 px-5 font-gilroy-regular text-xs font-normal radius-10px min-w-max"
+          class="py-2 px-5 font-gilroy-regular dark:dark-color-primary text-xs font-normal radius-10px min-w-max"
           style="border: 1px solid #dbb83e"
         >
           Notar
         </button>
         <button
-          class="py-2 px-5 font-gilroy-regular text-xs font-normal radius-10px min-w-max"
+          class="py-2 px-5 font-gilroy-regular dark:dark-color-primary text-xs font-normal radius-10px min-w-max"
           style="border: 1px solid #dbb83e"
         >
           ID
         </button>
         <button
-          class="py-2 px-5 font-gilroy-regular text-xs font-normal radius-10px min-w-max"
+          class="py-2 px-5 font-gilroy-regular dark:dark-color-primary text-xs font-normal radius-10px min-w-max"
           style="border: 1px solid #dbb83e"
         >
           Credit Card
         </button>
       </div>
 
-      <div class="flex flex-col gap-10px">
+      <div class="flex flex-col gap-10px mt-5">
         <p class="text-[#48BFAA] font-gilroy-bold font-size-10px">VALID</p>
         <div class="flex flex-wrap gap-10px">
           <div
-            class="bg-white flex justify-between w-[calc(50%-10px)]"
+            class="bg-white dark:bg-dark-card flex justify-between w-[calc(50%-10px)]"
             style="border-radius: 10px; padding: 13px 10px 12px 20px"
           >
             <div>
@@ -126,7 +139,7 @@
             </div>
           </div>
           <div
-            class="bg-white flex justify-between w-[calc(50%-10px)]"
+            class="bg-white dark:bg-dark-card flex justify-between w-[calc(50%-10px)]"
             style="border-radius: 10px; padding: 13px 10px 12px 20px"
           >
             <div>
@@ -165,7 +178,7 @@
             </div>
           </div>
           <div
-            class="bg-white flex justify-between w-[calc(50%-10px)]"
+            class="bg-white dark:bg-dark-card flex justify-between w-[calc(50%-10px)]"
             style="border-radius: 10px; padding: 13px 10px 12px 20px"
           >
             <div>
@@ -205,11 +218,11 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col gap-10px">
+      <div class="flex flex-col gap-10px mt-5">
         <p class="text-[#D65555] font-gilroy-bold font-size-10px">EXPIRED</p>
         <div class="flex flex-wrap gap-10px">
           <div
-            class="bg-white flex justify-between w-[calc(50%-10px)]"
+            class="bg-white dark:bg-dark-card flex justify-between w-[calc(50%-10px)]"
             style="border-radius: 10px; padding: 13px 10px 12px 20px"
           >
             <div>
@@ -248,7 +261,7 @@
             </div>
           </div>
           <div
-            class="bg-white flex justify-between w-[calc(50%-10px)]"
+            class="bg-white dark:bg-dark-card flex justify-between w-[calc(50%-10px)]"
             style="border-radius: 10px; padding: 13px 10px 12px 20px"
           >
             <div>
@@ -287,7 +300,7 @@
             </div>
           </div>
           <div
-            class="bg-white flex justify-between w-[calc(50%-10px)]"
+            class="bg-white dark:bg-dark-card flex justify-between w-[calc(50%-10px)]"
             style="border-radius: 10px; padding: 13px 10px 12px 20px"
           >
             <div>
@@ -326,7 +339,7 @@
             </div>
           </div>
           <div
-            class="bg-white flex justify-between w-[calc(50%-10px)]"
+            class="bg-white dark:bg-dark-card flex justify-between w-[calc(50%-10px)]"
             style="border-radius: 10px; padding: 13px 10px 12px 20px"
           >
             <div>
@@ -365,7 +378,7 @@
             </div>
           </div>
           <div
-            class="bg-white flex justify-between w-[calc(50%-10px)]"
+            class="bg-white dark:bg-dark-card flex justify-between w-[calc(50%-10px)]"
             style="border-radius: 10px; padding: 13px 10px 12px 20px"
           >
             <div>
@@ -404,7 +417,7 @@
             </div>
           </div>
           <div
-            class="bg-white flex justify-between w-[calc(50%-10px)]"
+            class="bg-white dark:bg-dark-card flex justify-between w-[calc(50%-10px)]"
             style="border-radius: 10px; padding: 13px 10px 12px 20px"
           >
             <div>
@@ -448,7 +461,7 @@
         <p class="text-[#8C95A4] font-gilroy-bold font-size-10px">ARCHIVE</p>
         <div class="flex flex-wrap gap-10px">
           <div
-            class="bg-white flex justify-between w-[calc(50%-10px)]"
+            class="bg-white dark:bg-dark-card flex justify-between w-[calc(50%-10px)]"
             style="border-radius: 10px; padding: 13px 10px 12px 20px"
           >
             <div>
@@ -482,7 +495,7 @@
             </div>
           </div>
           <div
-            class="bg-white flex justify-between w-[calc(50%-10px)]"
+            class="bg-white dark:bg-dark-card flex justify-between w-[calc(50%-10px)]"
             style="border-radius: 10px; padding: 13px 10px 12px 20px"
           >
             <div>
@@ -521,7 +534,7 @@
             </div>
           </div>
           <div
-            class="bg-white flex justify-between w-[calc(50%-10px)]"
+            class="bg-white dark:bg-dark-card flex justify-between w-[calc(50%-10px)]"
             style="border-radius: 10px; padding: 13px 10px 12px 20px"
           >
             <div>

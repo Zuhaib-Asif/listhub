@@ -7,19 +7,32 @@
     <link rel="stylesheet" href="../output.css" />
   </head>
 
-  <body style="background: #fcfbfc">
+  <body class="bg-[#fcfbfc] dark:bg-dark">
     <div class="pt-2 pb-4 px-5">
       <div class="flex justify-between items-center pb-1">
         <div class="flex items-center gap-2">
           <a
             href="#"
-            class="width-26px height-26px rounded-full flex items-center justify-center"
-            style="background-color: #f5f5f5"
+            class="width-26px height-26px rounded-full flex items-center justify-center bg-light-card dark:bg-dark-card"
           >
-            <img class="rotate-90" src="../globalAssets/arrow.svg" alt="" />
+            <svg
+              width="9"
+              height="16"
+              viewBox="0 0 9 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="dark:stroke-[var(--dark-color-primary)]"
+                d="M7.85742 14.5L1.35742 8L7.85742 1.5"
+                stroke="#2E3553"
+                stroke-width="1.5"
+                stroke-linecap="square"
+              />
+            </svg>
           </a>
           <p
-            class="font-gilroy-extrabold font-normal text-sm leading-4 text-center color-primary color-primary dark:dark-color-primary"
+            class="font-gilroy-extrabold font-normal text-sm leading-4 text-center color-primary dark:dark-color-primary"
           >
             Owing me a lot of money
           </p>
@@ -29,10 +42,12 @@
           <img src="./assets/Group 18170.svg" alt="" />
         </div>
       </div>
-      <div class="bg-white p-3 radius-10px flex justify-between my-5">
+      <div
+        class="bg-white dark:bg-dark-card p-3 radius-10px flex justify-between my-5"
+      >
         <div>
           <p
-            class="color-primary font-gilroy-light font-size-13px font-normal text-left"
+            class="color-primary dark:dark-color-primary font-gilroy-light font-size-13px font-normal text-left"
           >
             Lender
           </p>
@@ -49,17 +64,21 @@
               Emanuella Longhornloop
             </p>
           </div>
-          <p class="font-gilroy-light font-size-13px font-normal">
+          <p
+            class="font-gilroy-light font-size-13px font-normal color-primary dark:dark-color-primary"
+          >
             Total borrowed
           </p>
-          <p class="font-gilroy-light font-size-13px font-normal">
+          <p
+            class="font-gilroy-light font-size-13px font-normal color-primary dark:dark-color-primary"
+          >
             Currently owing you
           </p>
         </div>
         <div style="border: 1px solid #ebebeb; height: 60px"></div>
         <div class="text-right">
           <p
-            class="color-primary font-gilroy-light font-size-13px font-normal text-right"
+            class="color-primary dark:dark-color-primary font-gilroy-light font-size-13px font-normal text-right"
           >
             Borrower
           </p>
@@ -94,25 +113,25 @@
           All
         </button>
         <button
-          class="py-2 px-5 font-gilroy-regular text-xs font-normal radius-10px min-w-max"
+          class="py-2 px-5 font-gilroy-regular dark:dark-color-primary text-xs font-normal radius-10px min-w-max"
           style="border: 1px solid #d65555"
         >
           Open
         </button>
         <button
-          class="py-2 px-5 font-gilroy-regular text-xs font-normal radius-10px min-w-max"
+          class="py-2 px-5 font-gilroy-regular dark:dark-color-primary text-xs font-normal radius-10px min-w-max"
           style="border: 1px solid #d65555"
         >
           Completed
         </button>
         <button
-          class="py-2 px-5 font-gilroy-regular text-xs font-normal radius-10px min-w-max"
+          class="py-2 px-5 font-gilroy-regular dark:dark-color-primary text-xs font-normal radius-10px min-w-max"
           style="border: 1px solid #d65555"
         >
           Canceled
         </button>
         <button
-          class="py-2 px-5 font-gilroy-regular text-xs font-normal radius-10px min-w-max"
+          class="py-2 px-5 font-gilroy-regular dark:dark-color-primary text-xs font-normal radius-10px min-w-max"
           style="border: 1px solid #d65555"
         >
           Declicned
@@ -121,7 +140,7 @@
       <div class="flex flex-col gap-10px m-Bottom10px">
         <p class="text-[#D65555] font-gilroy-bold font-size-10px">OPEN</p>
         <div
-          class="block bg-white"
+          class="block bg-white dark:bg-dark-card"
           style="border-radius: 10px; padding: 13px 10px 12px 20px"
         >
           <div class="flex justify-between owing-sec-row-top">
@@ -184,7 +203,7 @@
           </div>
         </div>
         <div
-          class="block bg-white"
+          class="block bg-white dark:bg-dark-card"
           style="border-radius: 10px; padding: 13px 10px 12px 20px"
         >
           <div class="flex justify-between owing-sec-row-top">
@@ -249,7 +268,7 @@
         </div>
 
         <div
-          class="block bg-white"
+          class="block bg-white dark:bg-dark-card"
           style="border-radius: 10px; padding: 13px 10px 12px 20px"
         >
           <div class="flex justify-between owing-sec-row-top">
@@ -314,9 +333,13 @@
         </div>
       </div>
       <div class="flex flex-col gap-10px">
-        <p class="color-primary font-gilroy-bold font-size-10px">COMPLETED</p>
+        <p
+          class="color-primary dark:dark-color-primary font-gilroy-bold font-size-10px"
+        >
+          COMPLETED
+        </p>
         <div
-          class="block bg-white opacity-50"
+          class="block bg-white opacity-50 dark:bg-dark-card"
           style="border-radius: 10px; padding: 13px 10px 12px 20px"
         >
           <div class="flex justify-between owing-sec-row-top">
@@ -381,9 +404,13 @@
         </div>
       </div>
       <div class="flex flex-col gap-10px">
-        <p class="color-primary font-gilroy-bold font-size-10px">CANCELED</p>
+        <p
+          class="color-primary dark:dark-color-primary font-gilroy-bold font-size-10px"
+        >
+          CANCELED
+        </p>
         <div
-          class="block bg-white opacity-50"
+          class="block bg-white opacity-50 dark:bg-dark-card"
           style="border-radius: 10px; padding: 13px 10px 12px 20px"
         >
           <div class="flex justify-between owing-sec-row-top">
@@ -448,9 +475,13 @@
         </div>
       </div>
       <div class="flex flex-col gap-10px">
-        <p class="color-primary font-gilroy-bold font-size-10px">DECLINED</p>
+        <p
+          class="color-primary dark:dark-color-primary font-gilroy-bold font-size-10px"
+        >
+          DECLINED
+        </p>
         <div
-          class="block bg-white opacity-50"
+          class="block bg-white opacity-50 dark:bg-dark-card"
           style="border-radius: 10px; padding: 13px 10px 12px 20px"
         >
           <div class="flex justify-between owing-sec-row-top">

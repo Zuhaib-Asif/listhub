@@ -6,18 +6,31 @@
     <title>Document</title>
     <link rel="stylesheet" href="../output.css" />
   </head>
-  <body>
+  <body class="dark:bg-dark">
     <div class="pt-2 pb-4 px-5">
       <div class="flex gap-2 items-center pb-1">
         <a
           href="#"
-          class="width-26px height-26px rounded-full flex items-center justify-center"
-          style="background-color: #f5f5f5"
+          class="width-26px height-26px rounded-full flex items-center justify-center bg-light-card dark:bg-dark-card"
         >
-          <img class="rotate-90" src="../globalAssets/arrow.svg" alt="" />
+          <svg
+            width="9"
+            height="16"
+            viewBox="0 0 9 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="dark:stroke-[var(--dark-color-primary)]"
+              d="M7.85742 14.5L1.35742 8L7.85742 1.5"
+              stroke="#2E3553"
+              stroke-width="1.5"
+              stroke-linecap="square"
+            />
+          </svg>
         </a>
         <p
-          class="font-gilroy-extrabold font-normal text-sm leading-4 text-center color-primary color-primary dark:dark-color-primary"
+          class="font-gilroy-extrabold font-normal text-sm leading-4 text-center color-primary dark:dark-color-primary"
         >
           Room Settings
         </p>
@@ -29,26 +42,25 @@
       <div class="mt-4">
         <div class="mb-4">
           <label
-            class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary color-primary dark:dark-color-primary"
+            class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary dark:dark-color-primary"
             style="letter-spacing: 0.20000000298023224px"
             for=""
             >Room Name</label
           ><br />
           <input
-            class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary color-primary dark:dark-color-primary"
-            style="border: 1px solid #e4edfc; background-color: #f6f8fb"
+            class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary dark:dark-color-primary border-light dark:border-dark bg-light-card dark:bg-dark-card"
             id=""
             type="text"
           />
         </div>
         <p
-          class="font-gilroy-bold m-top15px font-normal text-left font-size-13px m-Bottom10px leading-3 color-primary color-primary dark:dark-color-primary"
+          class="font-gilroy-bold m-top15px font-normal text-left font-size-13px m-Bottom10px leading-3 color-primary dark:dark-color-primary"
           style="letter-spacing: 0.20000000298023224px"
         >
           Members
         </p>
         <div
-          class="py-3 px-3 radius-10px m-Bottom10px outline-none bg-white font-gilroy-semibold color-primary color-primary dark:dark-color-primary"
+          class="py-3 px-3 radius-10px m-Bottom10px outline-none bg-white dark:bg-dark-card font-gilroy-semibold color-primary dark:dark-color-primary"
           style="box-shadow: 0px 0px 15px 0px #0000000d"
         >
           <div class="flex gap-3">
@@ -75,7 +87,7 @@
           </div>
         </div>
         <div
-          class="flex justify-between py-3 m-Bottom10px px-3 radius-10px outline-none bg-white font-gilroy-semibold color-primary color-primary dark:dark-color-primary"
+          class="flex justify-between py-3 m-Bottom10px px-3 radius-10px outline-none bg-white dark:bg-dark-card font-gilroy-semibold color-primary dark:dark-color-primary"
           style="box-shadow: 0px 0px 15px 0px #0000000d"
         >
           <div class="flex gap-3">
@@ -91,7 +103,7 @@
                 First Last
               </p>
               <div
-                class="text-center font-size-10px font-gilroy-light bg-[#F8D2D6] color-primary dark:dark-color-primary rounded-lg px-2"
+                class="text-center font-size-10px font-gilroy-light bg-[#F8D2D6] color-primary rounded-lg px-2"
                 style="width: max-content"
               >
                 Member
@@ -101,7 +113,7 @@
           <img src="../globalAssets/icon-remove.svg" alt="" />
         </div>
         <div
-          class="flex justify-between py-3 m-Bottom10px px-3 radius-10px outline-none bg-white font-gilroy-semibold color-primary color-primary dark:dark-color-primary"
+          class="flex justify-between py-3 m-Bottom10px px-3 radius-10px outline-none bg-white dark:bg-dark-card font-gilroy-semibold color-primary dark:dark-color-primary"
           style="box-shadow: 0px 0px 15px 0px #0000000d"
         >
           <div class="flex gap-3">
@@ -117,11 +129,12 @@
                 First Last
               </p>
               <div
-                class="flex gap-1 text-center font-size-10px font-gilroy-light color-primary dark:dark-color-primary rounded-lg"
+                class="flex gap-1 text-center font-size-10px font-gilroy-light color-primary"
                 style="width: max-content"
               >
-                <p class="bg-[#F8D2D6] px-2">Member</p>
-                <span class="font-gilroy-light-italic bg-none"
+                <p class="bg-[#F8D2D6] px-2 rounded-2xl">Member</p>
+                <span
+                  class="font-gilroy-light-italic bg-none dark:dark-color-primary"
                   >Pending Invitation</span
                 >
               </div>
@@ -130,7 +143,7 @@
           <img src="../globalAssets/icon-remove.svg" alt="" />
         </div>
         <div
-          class="flex justify-between py-3 m-Bottom10px px-3 radius-10px outline-none bg-white font-gilroy-semibold color-primary color-primary dark:dark-color-primary"
+          class="flex justify-between py-3 m-Bottom10px px-3 radius-10px outline-none bg-white dark:bg-dark-card font-gilroy-semibold color-primary dark:dark-color-primary"
           style="box-shadow: 0px 0px 15px 0px #0000000d"
         >
           <div class="flex gap-3">
@@ -141,11 +154,12 @@
                 tina@gmail.com
               </p>
               <div
-                class="flex gap-1 text-center font-size-10px font-gilroy-light color-primary dark:dark-color-primary rounded-lg"
+                class="flex gap-1 text-center font-size-10px font-gilroy-light color-primary"
                 style="width: max-content"
               >
-                <p class="bg-[#F8D2D6] px-2">Member</p>
-                <span class="font-gilroy-light-italic bg-none"
+                <p class="bg-[#F8D2D6] px-2 rounded-2xl">Member</p>
+                <span
+                  class="font-gilroy-light-italic bg-none dark:dark-color-primary"
                   >Pending Invitation</span
                 >
               </div>

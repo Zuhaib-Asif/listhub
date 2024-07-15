@@ -6,27 +6,42 @@
     <title>Document</title>
     <link rel="stylesheet" href="../../output.css" />
   </head>
-  <body>
-    <div class="flex items-center gap-2 mt-3">
-      <img
-        class="ml-5"
-        src="../../globalAssets/icon-navbutton-back.svg"
-        alt=""
-      />
+  <body class="dark:bg-dark">
+    <div class="flex items-center gap-2 pt-2 px-5">
+      <a
+        href="#"
+        class="width-26px height-26px rounded-full flex items-center justify-center bg-light-card dark:bg-dark-card"
+      >
+        <svg
+          width="9"
+          height="16"
+          viewBox="0 0 9 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="dark:stroke-[var(--dark-color-primary)]"
+            d="M7.85742 14.5L1.35742 8L7.85742 1.5"
+            stroke="#2E3553"
+            stroke-width="1.5"
+            stroke-linecap="square"
+          />
+        </svg>
+      </a>
       <p
-        class="color-primary text-left font-gilroy-extrabold text-sm font-normal leading-3"
+        class="color-primary dark:dark-color-primary text-left font-gilroy-extrabold text-sm font-normal leading-3"
       >
         Room Name
       </p>
     </div>
     <div class="flex justify-center flex-col ml-5 mr-5 items-center mt-5">
       <p
-        class="color-primary text-left font-gilroy-extrabold text-xl font-normal leading-3"
+        class="color-primary dark:dark-color-primary text-left font-gilroy-extrabold text-xl font-normal leading-3"
       >
         Activity Planner
       </p>
       <p
-        class="font-size-13px leading-4 text-center flex align-middle justify-center mt-5 font-gilroy-light color-primary color-primary dark:dark-color-primary"
+        class="font-size-13px leading-4 text-center flex align-middle justify-center mt-5 font-gilroy-light color-primary dark:dark-color-primary"
       >
         Please give your room a name. This name will show as your room main
         page. Only admin can change it.
@@ -37,7 +52,7 @@
         alt=""
       />
       <p
-        class="color-primary text-left font-gilroy-extrabold text-xs font-normal leading-3"
+        class="color-primary dark:dark-color-primary text-left font-gilroy-extrabold text-xs font-normal leading-3 mt-4"
       >
         Upload a picture for this room
       </p>
@@ -46,14 +61,13 @@
     <div class="ml-5 mr-5 mt-5">
       <div class="mb-4">
         <label
-          class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary color-primary dark:dark-color-primary"
+          class="font-gilroy-bold font-normal text-left font-size-13px leading-3 color-primary dark:dark-color-primary"
           style="letter-spacing: 0.20000000298023224px"
           for=""
           >Room Name</label
         ><br />
         <input
-          class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary color-primary dark:dark-color-primary"
-          style="border: 1px solid #e4edfc; background-color: #f6f8fb"
+          class="w-full py-3 px-5 radius-10px mt-1 outline-none font-gilroy-semibold font-size-13px font-normal color-primary dark:dark-color-primary border-light dark:border-dark bg-light-card dark:bg-dark-card"
           id=""
           type="text"
         />
@@ -71,7 +85,7 @@
     <!-- Footer  -->
     <div class="mb-28"></div>
     <div
-      class="w-full flex justify-center fixed bottom-0 left-0 bg-white footer-menu"
+      class="w-full flex justify-center fixed bottom-0 left-0 bg-white dark:bg-dark-card footer-menu"
       style="width: 100%; padding: 9px 10px; gap: 60px"
     >
       <div class="flex flex-col items-center active-footer-tab">
