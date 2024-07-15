@@ -5,16 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../output.css" />
-    <style>
-      .full-height {
-        height: 100vh;
-      }
-    </style>
   </head>
   <body class="dark:bg-dark">
-    <div class="ml-5 mr-5 full-height flex flex-col justify-center">
+    <div class="ml-5 mr-5 h-screen flex flex-col justify-center">
       <div class="flex items-center gap-2 mt-3">
-        <img src="../globalAssets/icon-navbutton-back.svg" alt="" />
+        <a
+          href="#"
+          class="width-26px height-26px rounded-full flex items-center justify-center bg-light-card dark:bg-dark-card"
+        >
+          <svg
+            width="9"
+            height="16"
+            viewBox="0 0 9 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="dark:stroke-[var(--dark-color-primary)]"
+              d="M7.85742 14.5L1.35742 8L7.85742 1.5"
+              stroke="#2E3553"
+              stroke-width="1.5"
+              stroke-linecap="square"
+            />
+          </svg>
+        </a>
         <p
           class="color-primary dark:dark-color-primary text-left font-gilroy-extrabold text-sm font-normal leading-3"
         >
@@ -40,13 +54,13 @@
     <!-- Footer  -->
     <div class="mb-28"></div>
     <div
-      class="w-full flex justify-center fixed bottom-0 left-0 bg-white footer-menu"
+      class="w-full flex justify-center fixed bottom-0 left-0 bg-white dark:bg-dark-card footer-menu"
       style="width: 100%; padding: 9px 10px; gap: 60px"
     >
       <div class="flex flex-col items-center active-footer-tab">
         <img src="../globalAssets/icon-nav-bottom-home.svg" alt="" />
         <p
-          class="font-gilroy-bold font-normal text-center color-primary dark:dark-color-primary leading-6"
+          class="font-gilroy-bold font-normal text-center color-primary leading-6"
           style="font-size: 13px"
         >
           Home
